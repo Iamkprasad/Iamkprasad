@@ -17,36 +17,18 @@ function loadData(url) {
     });
 }
 
+function handleImgError(img) {
+    img.onerror = null;
+    var d = document.createElement('div');
+    d.style.cssText = 'background:#EDE8E0;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#AAA;font-size:13px;font-family:Outfit,sans-serif;';
+    d.style.width = img.style.width || '100%';
+    d.style.height = img.style.height || '200px';
+    d.textContent = 'Image unavailable';
+    if (img.parentNode) img.parentNode.replaceChild(d, img);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const cacheBuster = `?t=${new Date().getTime()}`;
-    const scrollObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('in-view');
-                scrollObserver.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-
-    setTimeout(() => {
-        document.querySelectorAll('.scroll-anim').forEach(el => scrollObserver.observe(el));
-    }, 100);
-
-    // Navbar scroll effect
-    const navbar = document.querySelector('.navbar');
-    const progressBar = document.querySelector('.scroll-progress');
-
-    window.addEventListener('scroll', () => {
-        const winScroll = window.pageYOffset || document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scrolled = (winScroll / height) * 100;
-
-        if (progressBar) progressBar.style.width = `${scrolled}%`;
-        if (navbar) {
-            if (winScroll > 50) navbar.classList.add('scrolled');
-            else navbar.classList.remove('scrolled');
-        }
-    });
 
     // Mobile menu
     const menuBtn = document.querySelector('.mobile-menu-btn');
@@ -82,17 +64,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="stack-layer">
                         <div class="stack-content">
                             <div class="stack-img-wrapper">
-                                <img src="${img.image}" alt="${img.title}" class="stack-img" loading="lazy">
+                                <img src="${img.image}" alt="${img.title}" class="stack-img" loading="lazy" onerror="handleImgError(this)">
                                 <div class="stack-overlay"></div>
                             </div>
-                            <div class="stack-text scroll-anim">
+                            <div class="stack-text">
                                 <h2 class="stack-title">${img.title}</h2>
                                 <p class="stack-desc">${img.desc}</p>
                             </div>
                         </div>
                     </div>
                 `).join('');
-                stackingContainer.querySelectorAll('.scroll-anim').forEach(el => scrollObserver.observe(el));
             })
             .catch(() => {});
     }
@@ -151,19 +132,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             blogFeedContainer.innerHTML = posts.map((item, index) => `
-                <a href="post.html?id=${item.id}" class="blog-summary-card fade-in-up" style="animation-delay: ${0.05 + (index * 0.03)}s; display: block; margin-bottom: 1rem;">
-                    <div class="blog-summary-content">
-                        <span class="card-label">${item.label}</span>
-                        <h2 class="blog-card-title">${item.title}</h2>
-                        <p class="card-excerpt" style="margin-bottom: 0.75rem;">${item.excerpt}</p>
-                        <div class="card-meta" style="margin-top: 0;">
-                            <span>${item.author}</span>
-                            <span>·</span>
-                            <span>${item.date}</span>
-                            <span style="margin-left: auto; color: var(--accent); font-weight: 500; font-size: 0.85rem;">Read more →</span>
-                        </div>
+                <a href="post.html?id=${item.id}" class="blog-card">
+                    <span class="blog-card-tag">${item.label}</span>
+                    <h2 class="blog-card-title">${item.title}</h2>
+                    <p class="blog-card-excerpt">${item.excerpt}</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-card-meta"><strong>${item.author}</strong> · ${item.date} · 6 min read</div>
+                        <span class="blog-card-more">Read more →</span>
                     </div>
-                    ${item.image ? `<div class="blog-summary-img-wrapper"><img src="${item.image}" alt="${item.title}" class="blog-summary-img" loading="lazy"></div>` : ''}
                 </a>
             `).join('');
         }
@@ -223,15 +199,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             newsFeedContainer.innerHTML = items.map((item, index) => `
-                <a href="post.html?id=${item.id}" class="post-card fade-in-up" style="animation-delay: ${0.05 + (index * 0.03)}s; display: block; margin-bottom: 1rem;">
-                    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;">
-                        <span class="news-source">${item.source}</span>
-                        <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.date}</span>
-                    </div>
-                    <h2 class="post-card-title">${item.title}</h2>
-                    <p class="post-card-desc">${item.summary}</p>
-                    <div class="post-card-meta">
-                        <span class="card-label" style="margin: 0;">${item.label}</span>
+                <a href="post.html?id=${item.id}" class="blog-card">
+                    <span class="blog-card-tag">${item.label}</span>
+                    <h2 class="blog-card-title">${item.title}</h2>
+                    <p class="blog-card-excerpt">${item.summary}</p>
+                    <div class="blog-card-footer">
+                        <div class="blog-card-meta"><strong>${item.source}</strong> · ${item.date}</div>
+                        <span class="blog-card-more">Read more →</span>
                     </div>
                 </a>
             `).join('');
@@ -261,42 +235,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 document.title = `${post.title} | Prasad Kulal`;
 
-                let formattedContent = post.content || post.summary;
-                if (formattedContent) {
-                    formattedContent = formattedContent
-                        .replace(/\*(.*?)\*/g, '<strong>$1</strong>')
-                        .replace(/_(.*?)_/g, '<em>$1</em>');
-                }
+                const formattedContent = (post.content || post.summary || '').replace(/\*(.*?)\*/g, '<strong>$1</strong>').replace(/_(.*?)_/g, '<em>$1</em>');
+
+                const imageHtml = post.image
+                    ? `<img src="${post.image}" alt="${post.title}" class="post-featured-image" loading="lazy" onerror="this.onerror=null;this.parentNode.innerHTML='<div class=\\'post-featured-placeholder\\'>Featured image</div>'">`
+                    : '<div class="post-featured-placeholder">Featured image</div>';
 
                 singlePostContainer.innerHTML = `
-                    <div class="post-header px-6">
-                        <div class="max-w-4xl mx-auto text-center">
-                            <span class="card-label" style="color: var(--accent);">${post.label}</span>
-                            <h1 class="text-3xl md-text-5xl font-serif" style="color: var(--page-bg); margin: 0.75rem 0;">${post.title}</h1>
-                            <div style="color: hsla(40, 30%, 90%, 0.5); font-size: 0.9rem;">
-                                <span>${post.author || 'Prasad Chandra Kulal'}</span>
-                                <span style="margin: 0 0.5rem;">·</span>
-                                <span>${post.date}</span>
-                                ${post.source ? `<span style="margin: 0 0.5rem;">·</span><span>${post.source}</span>` : ''}
-                            </div>
+                    <div class="post-hero">
+                        <div class="post-hero-inner">
+                            <span class="post-hero-tag">${post.label}</span>
+                            <h1>${post.title}</h1>
+                            <div class="post-hero-byline"><strong>${post.author || 'Prasad Chandra Kulal'}</strong> · ${post.date} · 6 min read</div>
                         </div>
                     </div>
-                    <div class="px-6 py-24">
-                        <div class="max-w-3xl mx-auto">
-                            ${post.image ? `<div style="border-radius: 8px; overflow: hidden; margin-bottom: 2.5rem; max-height: 450px; box-shadow: 0 4px 16px rgba(28,43,58,0.08);"><img src="${post.image}" alt="${post.title}" style="width: 100%; height: 100%; object-fit: cover;"></div>` : ''}
-                            <div class="post-content">${formattedContent}</div>
-                            <div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-                                <span style="font-size: 0.85rem; color: var(--text-muted);">Share this article</span>
-                                <div style="display: flex; gap: 0.5rem;">
-                                    <button class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank')">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                                        LinkedIn
-                                    </button>
-                                    <button class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+' '+encodeURIComponent(window.location.href),'_blank')">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                                        X
-                                    </button>
-                                </div>
+                    <div class="post-body-wrapper">
+                        ${imageHtml}
+                        <div class="post-content">${formattedContent}</div>
+                        <div class="post-sources" style="max-width: 680px; margin: 3rem auto 0; border-top: 1px solid var(--border); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+                            <span style="font-size: 0.85rem; color: var(--text-muted);">Share this article</span>
+                            <div style="display: flex; gap: 0.5rem;">
+                                <button class="share-btn" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href),'_blank')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                                    LinkedIn
+                                </button>
+                                <button class="share-btn" onclick="window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(document.title)+' '+encodeURIComponent(window.location.href),'_blank')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                    X
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -331,17 +297,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let html = '';
             Object.keys(grouped).forEach(category => {
-                html += `<h2 class="archive-year" style="margin-top: 2.5rem;">${category}</h2>`;
+                html += `<div class="archive-section-title">${category}</div>`;
                 grouped[category].forEach((item, i) => {
                     html += `
-                        <a href="post.html?id=${item.id}" class="post-card" style="margin-bottom: 1rem; display: block;">
-                            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;">
-                                <div>
-                                    <span class="card-label" style="margin-bottom: 0.25rem;">${item.label}</span>
-                                    <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--text-dark); margin-top: 0.25rem;">${item.title}</h3>
-                                </div>
-                                <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.date}</span>
+                        <a href="post.html?id=${item.id}" class="archive-row" style="display: flex; justify-content: space-between; align-items: baseline;">
+                            <div class="archive-row-left">
+                                <span class="archive-row-tag">${item.label}</span>
+                                <span class="archive-row-title">${item.title}</span>
                             </div>
+                            <span class="archive-row-date">${item.date}</span>
                         </a>
                     `;
                 });
@@ -360,9 +324,9 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(blogs => {
                 const featured = blogs.slice(0, 3);
                 featuredContainer.innerHTML = featured.map((blog, index) => `
-                    <a href="post.html?id=${blog.id}" class="card-link scroll-anim" style="${index === 1 ? 'transition-delay: 0.15s;' : index === 2 ? 'transition-delay: 0.3s;' : ''}">
+                    <a href="post.html?id=${blog.id}" class="card-link">
                         <article class="card">
-                            <img src="${blog.image || 'assets/images/blog/default.jpg'}" alt="${blog.title}" class="card-img" loading="lazy">
+                            <img src="${blog.image || 'assets/images/blog/default.jpg'}" alt="${blog.title}" class="card-img" loading="lazy" onerror="handleImgError(this)">
                             <div class="card-body">
                                 <span class="card-label">${blog.label}</span>
                                 <h3 class="card-title">${blog.title}</h3>
@@ -376,7 +340,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </article>
                     </a>
                 `).join('');
-                featuredContainer.querySelectorAll('.scroll-anim').forEach(el => scrollObserver.observe(el));
             })
             .catch(() => {});
     }
@@ -388,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(news => {
                 const latest = news.slice(0, 3);
                 latestNews.innerHTML = latest.map(item => `
-                    <a href="post.html?id=${item.id}" class="post-card scroll-anim" style="display: block;">
+                    <a href="post.html?id=${item.id}" class="post-card" style="display: block;">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;">
                             <span class="news-source">${item.source}</span>
                             <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.date}</span>
@@ -397,7 +360,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${item.summary}</p>
                     </a>
                 `).join('');
-                latestNews.querySelectorAll('.scroll-anim').forEach(el => scrollObserver.observe(el));
             })
             .catch(() => {});
     }
