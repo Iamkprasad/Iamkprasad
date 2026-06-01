@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News — Prasad Kulal | Insurance & Market Insights</title>
+    <meta name="description" content="Stay informed with the latest news and market updates on the Indian insurance sector, regulatory changes, and financial market developments.">
+    <meta property="og:title" content="News — Prasad Kulal | Insurance & Market Insights">
+    <meta property="og:description" content="Latest news and market updates on the Indian insurance sector.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll-progress" style="position:fixed;top:0;left:0;width:0%;height:2px;background:var(--accent);z-index:101;transition:width 0.1s ease-out;"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Prasad<span class="logo-accent"> Kulal</span></a>
+            <div class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="news.html" class="nav-link active">News</a>
+                <a href="archives.html" class="nav-link">Archives</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="nav-cta">Connect</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="blog.html" class="mobile-nav-link">Blog</a>
+                <a href="news.html" class="mobile-nav-link active">News</a>
+                <a href="archives.html" class="mobile-nav-link">Archives</a>
+                <a href="about.html" class="mobile-nav-link">About</a>
+                <a href="contact.html" class="mobile-nav-link">Contact</a>
+                <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="mobile-nav-link" style="color:var(--accent);">LinkedIn →</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section style="padding-top: 6rem; padding-bottom: 3rem; padding-left: 1.5rem; padding-right: 1.5rem; background: var(--page-bg);">
+            <div class="max-w-5xl mx-auto text-center">
+                <div style="font-family: var(--font-body); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-bottom: 20px;">Market updates</div>
+                <h1 class="text-3xl" style="margin-bottom: 0.75rem;">News</h1>
+                <p style="color: var(--text-muted); max-width: 36rem; margin: 0 auto; font-size: 1rem; font-weight: 300;">
+                    Stay informed with the latest developments in the Indian insurance and financial markets.
+                </p>
+            </div>
+        </section>
+
+        <section style="background: var(--page-bg); padding: 3rem 1.5rem 6rem;">
+            <div class="max-w-4xl mx-auto">
+                <div class="filter-section scroll-anim">
+                    <div class="search-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <input type="text" id="news-search" placeholder="Search news...">
+                    </div>
+                    <div class="filter-buttons" id="news-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="Life Insurance">Life Insurance</button>
+                        <button class="filter-btn" data-filter="General Insurance">General Insurance</button>
+                        <button class="filter-btn" data-filter="Health">Health</button>
+                        <button class="filter-btn" data-filter="IRDAI/Regulatory">IRDAI/Regulatory</button>
+                    </div>
+                </div>
+                <div id="news-feed-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-24 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="footer-content">
+                <div>
+                    <h3 class="footer-brand">Prasad<span style="color:var(--accent);"> Kulal</span></h3>
+                    <p class="footer-desc">Independent Insurance Analysis · India</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="news.html" class="footer-link">News</a>
+                    <a href="archives.html" class="footer-link">Archives</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                    <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="footer-social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copyright">© <span id="currentYear"></span> Prasad Chandra Kulal</p>
+            <p class="footer-disclaimer">Not investment advice. This site is for informational purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

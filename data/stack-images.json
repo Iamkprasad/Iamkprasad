@@ -1,0 +1,32 @@
+[
+  {
+    "id": "market-analysis",
+    "title": "Market Analysis",
+    "desc": "Deep dives into insurance market trends, premium growth, and sector performance with data-driven insights.",
+    "image": "assets/images/stack-market.jpg"
+  },
+  {
+    "id": "regulatory-updates",
+    "title": "Regulatory Insights",
+    "desc": "Tracking IRDAI reforms, policy changes, and their impact on the Indian insurance ecosystem.",
+    "image": "assets/images/stack-regulatory.jpg"
+  },
+  {
+    "id": "health-insurance",
+    "title": "Health Insurance",
+    "desc": "Comprehensive analysis of health insurance trends, GST impacts, and coverage expansion in India.",
+    "image": "assets/images/stack-health.jpg"
+  },
+  {
+    "id": "investment",
+    "title": "Investment Perspectives",
+    "desc": "Evaluating insurance sector stocks, valuations, and long-term growth opportunities for investors.",
+    "image": "assets/images/stack-investment.jpg"
+  },
+  {
+    "id": "digital-transformation",
+    "title": "Digital Insurance",
+    "desc": "Exploring how technology, AI, and insurtech are reshaping the insurance value chain.",
+    "image": "assets/images/stack-digital.jpg"
+  }
+]

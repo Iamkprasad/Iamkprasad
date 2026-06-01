@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Prasad Kulal | Insurance & Market Insights</title>
+    <meta name="description" content="Get in touch with Prasad Chandra Kulal for questions, collaborations, or insurance industry discussions.">
+    <meta property="og:title" content="Contact — Prasad Kulal | Insurance & Market Insights">
+    <meta property="og:description" content="Get in touch for questions, collaborations, or industry discussions.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll-progress" style="position:fixed;top:0;left:0;width:0%;height:2px;background:var(--accent);z-index:101;transition:width 0.1s ease-out;"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Prasad<span class="logo-accent"> Kulal</span></a>
+            <div class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="news.html" class="nav-link">News</a>
+                <a href="archives.html" class="nav-link">Archives</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="nav-cta">Connect</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav">
+            <div class="mobile-nav-content">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="blog.html" class="mobile-nav-link">Blog</a>
+                <a href="news.html" class="mobile-nav-link">News</a>
+                <a href="archives.html" class="mobile-nav-link">Archives</a>
+                <a href="about.html" class="mobile-nav-link">About</a>
+                <a href="contact.html" class="mobile-nav-link active">Contact</a>
+                <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="mobile-nav-link" style="color:var(--accent);">LinkedIn →</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section style="padding-top: 6rem; padding-bottom: 3rem; padding-left: 1.5rem; padding-right: 1.5rem; background: var(--page-bg);">
+            <div class="max-w-5xl mx-auto text-center">
+                <div style="font-family: var(--font-body); font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-bottom: 20px;">Get in touch</div>
+                <h1 class="text-3xl" style="margin-bottom: 0.75rem;">Contact</h1>
+                <p style="color: var(--text-muted); max-width: 36rem; margin: 0 auto; font-size: 1rem; font-weight: 300;">
+                    For questions, collaborations, or insurance industry discussions.
+                </p>
+            </div>
+        </section>
+
+        <section style="background: var(--page-bg); padding: 3rem 1.5rem 6rem;">
+            <div class="max-w-3xl mx-auto">
+                <div class="contact-card">
+                    <form id="contact-form" onsubmit="handleContactSubmit(); return false;">
+                        <div style="display: grid; gap: 1.5rem;">
+                            <div>
+                                <label style="display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.5rem; font-weight: 500;">Your Name</label>
+                                <input type="text" id="contact-name" class="contact-input" placeholder="Enter your name" required>
+                            </div>
+                            <div>
+                                <label style="display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.5rem; font-weight: 500;">Email Address</label>
+                                <input type="email" id="contact-email" class="contact-input" placeholder="Enter your email" required>
+                            </div>
+                            <div>
+                                <label style="display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.5rem; font-weight: 500;">Subject</label>
+                                <input type="text" id="contact-subject" class="contact-input" placeholder="What is this about?">
+                            </div>
+                            <div>
+                                <label style="display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+                                <textarea id="contact-message" class="contact-input" placeholder="Your message..." required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary" style="justify-content: center; width: 100%; margin-top: 1.5rem;">Send Message</button>
+                        <p id="contact-status" style="text-align: center; font-size: 0.9rem; color: var(--accent); display: none; margin-top: 1rem;">Thank you! Your message has been received.</p>
+                    </form>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: center;">
+                    <div class="divider" style="margin: 0 auto 2rem;"></div>
+                    <p style="color: var(--text-muted); margin-bottom: 0.5rem;">Or connect with me directly</p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem;">
+                        <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-24 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="footer-content">
+                <div>
+                    <h3 class="footer-brand">Prasad<span style="color:var(--accent);"> Kulal</span></h3>
+                    <p class="footer-desc">Independent Insurance Analysis · India</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="news.html" class="footer-link">News</a>
+                    <a href="archives.html" class="footer-link">Archives</a>
+                    <a href="about.html" class="footer-link">About</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                    <a href="https://www.linkedin.com/in/prasadkulal/" target="_blank" class="footer-social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copyright">© <span id="currentYear"></span> Prasad Chandra Kulal</p>
+            <p class="footer-disclaimer">Not investment advice. This site is for informational purposes only.</p>
+        </div>
+    </footer>
+
+    <script>
+        function handleContactSubmit() {
+            const status = document.getElementById('contact-status');
+            const name = document.getElementById('contact-name').value;
+            const email = document.getElementById('contact-email').value;
+            const subject = document.getElementById('contact-subject').value;
+            const message = document.getElementById('contact-message').value;
+
+            if (!name || !email || !message) {
+                status.textContent = 'Please fill in all required fields.';
+                status.style.color = 'var(--alert)';
+                status.style.display = 'block';
+                setTimeout(() => { status.style.display = 'none'; }, 4000);
+                return;
+            }
+
+            const mailto = `mailto:prasad.kulal@example.com?subject=${encodeURIComponent(subject || 'Contact from Website')}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
+            window.location.href = mailto;
+
+            status.textContent = 'Thank you! Your message has been sent.';
+            status.style.color = 'var(--accent)';
+            status.style.display = 'block';
+
+            document.getElementById('contact-name').value = '';
+            document.getElementById('contact-email').value = '';
+            document.getElementById('contact-subject').value = '';
+            document.getElementById('contact-message').value = '';
+
+            setTimeout(() => { status.style.display = 'none'; }, 5000);
+        }
+    </script>
+</body>
+</html>

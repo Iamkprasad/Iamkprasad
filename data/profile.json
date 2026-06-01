@@ -1,0 +1,20 @@
+{
+  "name": "Prasad Chandra Kulal",
+  "shortName": "Prasad Kulal",
+  "title": "Insurance & Market Insights",
+  "tagline": "Analysing markets, decoding insurance, and sharing insights that matter.",
+  "bio": "Prasad Chandra Kulal is a professional focused on insurance analytics, market research, and financial insights. With a deep understanding of the Indian insurance landscape, regulatory developments, and market dynamics, Prasad provides well-researched analysis on insurance trends, market movements, and investment opportunities. This platform serves as a curated collection of insights on insurance, market analysis, and financial literacy — designed for professionals, investors, and anyone navigating the complex world of insurance and financial markets.",
+  "shortBio": "Insurance analyst and market researcher providing insights on the Indian insurance sector, regulatory developments, and financial market trends.",
+  "linkedin": "https://www.linkedin.com/in/prasadkulal/",
+  "email": "prasad.kulal@example.com",
+  "location": "India",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/prasadkulal/"
+  },
+  "site": {
+    "title": "Prasad Kulal — Insurance & Market Insights",
+    "description": "Analysing markets, decoding insurance, and sharing insights that matter. A curated platform for insurance analysis, market research, and financial perspectives.",
+    "url": "https://iamkprasad.github.io",
+    "image": "assets/images/profile.jpg"
+  }
+}
