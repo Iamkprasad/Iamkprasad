@@ -27,23 +27,24 @@ function handleImgError(img) {
     if (img.parentNode) img.parentNode.replaceChild(d, img);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const cacheBuster = `?t=${new Date().getTime()}`;
-
-    // Mobile menu
+// Mobile menu — runs immediately (defer script guarantees DOM is parsed)
+(function() {
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const mobileNav = document.querySelector('.mobile-nav');
     const menuIcon = document.querySelector('.menu-icon');
     const closeIcon = document.querySelector('.close-icon');
 
     if (menuBtn && mobileNav) {
-        menuBtn.addEventListener('click', () => {
-            const isOpen = mobileNav.classList.contains('open');
+        menuBtn.addEventListener('click', function() {
             mobileNav.classList.toggle('open');
-            menuIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
+            if (menuIcon) menuIcon.classList.toggle('hidden');
+            if (closeIcon) closeIcon.classList.toggle('hidden');
         });
     }
+})();
+
+document.addEventListener('DOMContentLoaded', () => {
+    const cacheBuster = `?t=${new Date().getTime()}`;
 
     // Current year
     const yearSpan = document.getElementById('currentYear');
