@@ -55,23 +55,16 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => { profileData = data; })
         .catch(() => {});
 
-    // Stacking gallery on home page
+    // Feature highlight cards on home page (formerly stacking gallery)
     const stackingContainer = document.getElementById('stacking-container');
     if (stackingContainer) {
         loadData(`data/stack-images.json${cacheBuster}`)
             .then(data => {
                 stackingContainer.innerHTML = data.map(img => `
-                    <div class="stack-layer">
-                        <div class="stack-content">
-                            <div class="stack-img-wrapper">
-                                <img src="${img.image}" alt="${img.title}" class="stack-img" loading="lazy" onerror="handleImgError(this)">
-                                <div class="stack-overlay"></div>
-                            </div>
-                            <div class="stack-text">
-                                <h2 class="stack-title">${img.title}</h2>
-                                <p class="stack-desc">${img.desc}</p>
-                            </div>
-                        </div>
+                    <div class="feature-card">
+                        <img src="${img.image}" alt="${img.title}" class="feature-card-img" loading="lazy" onerror="handleImgError(this)">
+                        <h3 class="feature-card-title">${img.title}</h3>
+                        <p class="feature-card-desc">${img.desc}</p>
                     </div>
                 `).join('');
             })
