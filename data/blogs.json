@@ -1,132 +1,248 @@
 ﻿[
     {
-        "id":  "BLG-001",
-        "slug":  "crop-insurance-in-india-addressing-the-agricultural-protection-gap",
-        "title":  "Crop Insurance in India: Addressing the Agricultural Protection Gap",
-        "category":  "Personal Lines",
-        "tags":  "Personal Lines",
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-04-28",
-        "read_time":  "1 min read",
-        "summary":  "Crop insurance premiums declined 43.6% in FY26, highlighting the challenges in India\u0027s agricultural insurance framework.",
-        "content":  "\u003cp\u003eThe crop insurance segment in India has faced significant headwinds, with premiums declining 43.6% YoY in 11M FY2026. This sharp decline has been a major drag on the non-life insurance industry\u0027s overall growth, highlighting the structural challenges in India\u0027s agricultural insurance framework.\u003c/p\u003e\u003ch2\u003eThe Pradhan Mantri Fasal Bima Yojana (PMFBY)\u003c/h2\u003e\u003cp\u003eLaunched in 2016, PMFBY is India\u0027s flagship crop insurance scheme, aiming to provide affordable insurance coverage to farmers against crop loss due to natural calamities, pests, and diseases.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Business Standard (April 2026), ICRA Insurance Sector Report (April 2026)\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-002",
-        "slug":  "insurance-for-all-by-2047-assessing-indias-progress",
-        "title":  "Insurance for All by 2047: Assessing India\u0027s Progress",
-        "category":  "IRDAI/Regulatory",
+        "id":  "BLG-019",
+        "slug":  "lic-q4-fy26-deep-dive-record-profit-surging-vnb-and-the-margin-story",
+        "title":  "LIC Q4 FY26 Deep Dive: Record Profit, Surging VNB, and the Margin Story",
+        "category":  "Life Insurance",
         "tags":  [
-                     "IRDAI",
-                     "IRDAI/Regulatory"
+                     "LIC",
+                     "SBI",
+                     "HDFC",
+                     "FY26",
+                     "Q4",
+                     "PAT",
+                     "VNB",
+                     "AUM",
+                     "Ind AS",
+                     "Life Insurance",
+                     "SBI Life",
+                     "HDFC Life"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-04",
-        "read_time":  "1 min read",
-        "summary":  "IRDAI\u0027s ambitious vision of \u0027Insurance for All by 2047\u0027 is gaining momentum. An assessment of progress, challenges, and the road ahead.",
-        "content":  "\u003cp\u003eThe Insurance Regulatory and Development Authority of India (IRDAI) has set an ambitious vision: \u0027Insurance for All by 2047\u0027, aligning with the government\u0027s broader \u0027Viksit Bharat 2047\u0027 goal. This vision aims to ensure that every citizen has access to adequate insurance coverage, whether for life, health, or property.\u003c/p\u003e\u003ch2\u003eCurrent State of Insurance Coverage\u003c/h2\u003e\u003cp\u003eIndia\u0027s insurance penetration stood at 3.7% in FY2024-25, with life insurance at 2.7% and non-life at 1.0%. While this represents progress from historical levels, it remains significantly below the global average of 7.3%.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IRDAI Annual Report 2024-25, PIB India\u003c/em\u003e\u003c/p\u003e",
+        "published_date":  "2026-06-04",
+        "read_time":  "2 min read",
+        "summary":  "LIC reported a record Rs 57,419 crore PAT for FY26 with VNB surging 42%. A deep dive into the performance of India\u0027s largest life insurer.",
+        "content":  "\u003cp\u003eLife Insurance Corporation of India (LIC) closed FY26 with a stellar performance, reporting a consolidated net profit of Rs 23,467 crore in Q4 â€” up 23% YoY â€” and a record full-year PAT of Rs 57,419 crore, up 19% from FY25. The results were accompanied by a Rs 10 per share final dividend and a maiden 1:1 bonus issue.\u003c/p\u003e\u003ch2\u003eThe VNB Story: Growth vs Margin\u003c/h2\u003e\u003cp\u003eThe headline VNB growth of 42% to Rs 14,179 crore for FY26 is impressive. However, a closer look reveals nuance: while Q4 VNB surged 66.7% to Rs 5,891 crore with margins expanding to 25.66% (from 18.75%), the full-year VNB margin of 21.2% â€” though up 360 bps from 17.6% â€” still trails private sector peers like SBI Life (27.5%) and HDFC Life.\u003c/p\u003e\u003cp\u003eManagement attributed the margin improvement to a favourable product mix shift, with non-par products now accounting for over 35% of individual APE. The channel diversification strategy has also delivered, with banca and alternate channels recording growth of over 45% and premium collections crossing Rs 5,000 crore during FY26.\u003c/p\u003e\u003ch2\u003eKey Metrics\u003c/h2\u003e\u003cp\u003eLIC\u0027s Q4 APE rose 22% to Rs 22,954 crore, while net premium income grew 12% to Rs 1.65 trillion. Net investment income rose 17% to Rs 1.09 trillion, reflecting strong returns on the insurer\u0027s massive AUM of Rs 57.3 lakh crore.\u003c/p\u003e\u003cp\u003eThe solvency ratio improved to 2.35 from 2.11, comfortably above the regulatory requirement. However, the 13th-month persistency ratio weakened to 67.77% from 68.62%, signalling some pressure on policy retention â€” an area that warrants monitoring.\u003c/p\u003e\u003ch2\u003eOutlook\u003c/h2\u003e\u003cp\u003eWith the recent 1:1 bonus issue and strong capital position, LIC is well-placed to navigate the transition to Ind AS 117 and the risk-based capital framework. The key challenge will be sustaining margin improvement while managing the expense ratio, which rose to 12.52% from 11.15%.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Economic Times (May 21, 2026), Business Standard (May 21, 2026), CNBC TV18 (May 21, 2026), Fortune India (May 21, 2026)\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-003",
-        "slug":  "digital-transformation-in-indian-insurance-from-insurtech-to-ai",
-        "title":  "Digital Transformation in Indian Insurance: From Insurtech to AI",
+        "id":  "BLG-018",
+        "slug":  "icici-lombard-fy26-health-led-growth-story-gains-momentum",
+        "title":  "ICICI Lombard FY26: Health-Led Growth Story Gains Momentum",
         "category":  "General Insurance",
         "tags":  [
-                     "IRDAI",
-                     "FDI",
-                     "General Insurance"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-07",
-        "read_time":  "1 min read",
-        "summary":  "Technology is reshaping every aspect of the insurance value chain in India, from underwriting to claims management and customer engagement.",
-        "content":  "\u003cp\u003eThe Indian insurance industry is in the midst of a profound digital transformation. From artificial intelligence-powered underwriting to blockchain-based claims processing, technology is reshaping how insurers operate, how products are distributed, and how customers experience insurance.\u003c/p\u003e\u003ch2\u003eThe Insurtech Landscape\u003c/h2\u003e\u003cp\u003eIndia\u0027s insurtech ecosystem has matured significantly. The 100% FDI allowance under the SBSR Act is expected to accelerate technology transfer and attract global investment in insurance technology platforms.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Industry Analysis, IRDAI Reports\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-004",
-        "slug":  "motor-insurance-in-india-navigating-change-in-2026",
-        "title":  "Motor Insurance in India: Navigating Change in 2026",
-        "category":  "Motor",
-        "tags":  [
+                     "ICICI",
                      "GST",
-                     "Motor"
+                     "FY26",
+                     "Q4",
+                     "PAT",
+                     "GDPI",
+                     "General Insurance",
+                     "ICICI Lombard"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-10",
-        "read_time":  "1 min read",
-        "summary":  "Motor insurance, the largest segment in India\u0027s general insurance industry, is undergoing significant changes with GST rationalisation and regulatory shifts.",
-        "content":  "\u003cp\u003eMotor insurance remains the backbone of India\u0027s general insurance industry, contributing the largest share of premiums. The segment is undergoing significant transformation in 2026, driven by regulatory changes, evolving consumer behaviour, and technological disruption.\u003c/p\u003e\u003ch2\u003eGrowth Drivers\u003c/h2\u003e\u003cp\u003eSwiss Re forecasts that motor insurance in India will grow at 7.5% per year over 2026-2030, driven by greater vehicle uptake and increasing awareness of insurance coverage. The rationalisation of GST for vehicles has also provided a nudge to motor insurance premium growth.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Swiss Re India Outlook (January 2026), ICRA Sector Report (April 2026)\u003c/em\u003e\u003c/p\u003e",
+        "published_date":  "2026-06-02",
+        "read_time":  "2 min read",
+        "summary":  "ICICI Lombard\u0027s Q4 GDPI surged 18.2% â€” nearly double the industry rate â€” driven by retail health insurance growing 54%.",
+        "content":  "\u003cp\u003eICICI Lombard, India\u0027s largest private sector general insurer, delivered a strong Q4 FY26 performance that underscores its health-led growth strategy. The company reported a 7.3% YoY rise in Q4 PAT to Rs 546.6 crore, but the real story lies in the premium growth trajectory and portfolio transformation.\u003c/p\u003e\u003ch2\u003eQ4 Momentum: Outpacing the Industry\u003c/h2\u003e\u003cp\u003eGross Direct Premium Income (GDPI) on a 1/N basis grew 18.2% in Q4 to Rs 7,340 crore, well above the industry growth of 10.9%. Excluding crop and mass health segments, GDPI growth was 18.4% against the industry\u0027s 13.3%. This marks a sharp acceleration from the full-year GDPI growth of 7%, which lagged the industry\u0027s 9.2%.\u003c/p\u003e\u003cp\u003eThe Q4 performance demonstrates that ICICI Lombard\u0027s growth engine is firing on all cylinders as the year progressed, with management expressing confidence in sustained momentum through FY27, led by retail health and motor segments.\u003c/p\u003e\u003ch2\u003eHealth: The Growth Engine\u003c/h2\u003e\u003cp\u003eHealth insurance was the standout performer. Health GDPI grew 18.3% to Rs 9,077 crore for FY26, with the individual retail health line surging 54% annually and an extraordinary 65% in Q4 alone. The company\u0027s retail health market share improved to 4.1% from 3.3% in FY25 â€” a meaningful gain in a competitive segment.\u003c/p\u003e\u003cp\u003eManagement attributed part of the retail momentum to GST reforms, which expanded the base of new customers. The health claims ratio also improved, with the group health loss ratio declining to 97.2% in Q4 from 98% a year ago, and the full-year loss ratio improving to 91.9% from 98.1%.\u003c/p\u003e\u003ch2\u003eMotor and Combined Ratio\u003c/h2\u003e\u003cp\u003eThe motor insurance segment â€” still the largest at ~40% of portfolio â€” posted 15% GDPI growth in Q4, supported by strong vehicle sales (auto sales rose 25% in March alone). The combined ratio improved 130 bps YoY to 101.2% in Q4, though it remains above 100%, indicating the core underwriting business is not yet profitable.\u003c/p\u003e\u003cp\u003eThe full-year combined ratio stood at 103.4%. Investment income grew 27.4% to Rs 796.68 crore, providing the cushion that lifted overall profitability. The solvency ratio remained robust at 2.67x.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Reuters (April 15, 2026), Business Standard (April 15-16, 2026), ICICI Lombard Earnings Call (April 15, 2026)\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-005",
-        "slug":  "indias-rising-position-in-the-global-insurance-landscape",
-        "title":  "India\u0027s Rising Position in the Global Insurance Landscape",
-        "category":  "General Insurance",
-        "tags":  "General Insurance",
+        "id":  "BLG-017",
+        "slug":  "health-insurance-trends-reshaping-india-in-2026",
+        "title":  "Health Insurance Trends Reshaping India in 2026",
+        "category":  "Health",
+        "tags":  [
+                     "LIC",
+                     "IRDAI",
+                     "GST",
+                     "GDPI",
+                     "Health"
+                 ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-13",
+        "published_date":  "2026-06-01",
         "read_time":  "1 min read",
-        "summary":  "India is now the 10th largest insurance market globally with 1.8% market share. Swiss Re forecasts India will be the fastest-growing major insurance market over 2026-2030.",
-        "content":  "\u003cp\u003eIndia\u0027s insurance sector has firmly established itself on the global stage. According to the Swiss Re Sigma Report (No. 2/2025), India remained the 10th largest insurance market in the world by nominal premium volumes in 2024, with a global market share of 1.8%.\u003c/p\u003e\u003ch2\u003eGrowth Trajectory\u003c/h2\u003e\u003cp\u003eThe Swiss Re analysis projects mid-term annual premium growth at 6.9% between 2026 and 2030, making India the strongest growing major insurance market â€” outpacing China (~4%), the US (~2%), and Western European markets.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Swiss Re Sigma Report (No. 2/2025), Swiss Re India Outlook (January 2026)\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "Health insurance premiums grew 14.41% in FY26 driven by GST exemption and rising healthcare awareness.",
+        "content":  "\u003cp\u003eThe Indian health insurance sector is experiencing a transformative phase in 2026, with premium growth accelerating and regulatory changes reshaping the market dynamics. As per IRDAI\u0027s 134th meeting review, the health insurance segment recorded a growth rate of 14.41% up to January 2026, with standalone health insurers outperforming at 17.89% growth and premium collections reaching Rs 35,815 crore.\u003c/p\u003e\u003ch2\u003eGST Exemption: A Game-Changer\u003c/h2\u003e\u003cp\u003eThe single most impactful policy change has been the GST exemption on health insurance policies, effective September 22, 2025. The removal of the 18% GST on retail health insurance policies has significantly reduced premium costs, making coverage more affordable for millions of Indian households.\u003c/p\u003e\u003cp\u003eAccording to ICRA\u0027s analysis, health insurance is expected to remain the primary growth driver for the non-life sector in FY2027, with industry GDPI projected to grow by 9.7-10.6%.\u003c/p\u003e\u003ch2\u003eSenior Citizen Coverage Expansion\u003c/h2\u003e\u003cp\u003eIn September 2024, the government expanded health coverage to all senior citizens aged 70 years and above, irrespective of income. As of February 2026, a total of 43.52 crore Ayushman cards have been created under the programme.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IRDAI 134th Meeting Report (March 2026), ICRA Insurance Sector Report (April 2026), PIB India\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-006",
-        "slug":  "risk-based-capital-in-india-what-it-means-for-insurers-and-policyholders",
-        "title":  "Risk-Based Capital in India: What It Means for Insurers and Policyholders",
+        "id":  "BLG-016",
+        "slug":  "sbi-life-fy26-steady-growth-margin-resilience-and-distribution-strength",
+        "title":  "SBI Life FY26: Steady Growth, Margin Resilience, and Distribution Strength",
+        "category":  "Life Insurance",
+        "tags":  [
+                     "SBI",
+                     "ICICI",
+                     "GST",
+                     "FY26",
+                     "PAT",
+                     "VNB",
+                     "NBP",
+                     "GWP",
+                     "Life Insurance",
+                     "SBI Life"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-31",
+        "read_time":  "1 min read",
+        "summary":  "SBI Life delivered 20% NBP growth with VNB margins at 27.5% â€” the upper end of guidance. A detailed analysis of the insurer\u0027s FY26 performance.",
+        "content":  "\u003cp\u003eSBI Life Insurance navigated a challenging FY26 with notable resilience. The insurer reported New Business Premium (NBP) growth of 20% YoY to Rs 42,550 crore, while maintaining its VNB margin at 27.5% â€” at the upper end of the 26-28% guided range. Excluding GST impact, the underlying VNB margin would have been approximately 29%.\u003c/p\u003e\u003ch2\u003eGrowth Drivers\u003c/h2\u003e\u003cp\u003eThe growth was broad-based across segments. Group savings surged 55% YoY to Rs 8,480 crore, annuity premiums grew 34% to Rs 7,030 crore, and the par segment posted exceptional 123% growth to Rs 1,670 crore. Individual protection grew a healthy 23%, reflecting the company\u0027s focus on protection-oriented products.\u003c/p\u003e\u003cp\u003eGross Written Premium (GWP) crossed the Rs 1 lakh crore milestone at Rs 1,01,290 crore, up 19%. Renewal premium grew 19% to Rs 58,730 crore, now constituting 58% of GWP and providing a stable earnings base.\u003c/p\u003e\u003ch2\u003eMargin and Profitability\u003c/h2\u003e\u003cp\u003eValue of New Business (VNB) grew 12% to Rs 6,670 crore, with VNB margin holding steady at 27.5%. The Indian Embedded Value (IEV) increased 15% to Rs 80,790 crore, while operating RoEV stood at a healthy 19.7%. PAT grew a modest 2% to Rs 2,470 crore.\u003c/p\u003e\u003cp\u003eThe expense of management ratio increased to 6.1% from 5.3%, and the total cost ratio to 10.6% from 9.7%, driven by GST on commissions and investments in distribution expansion. However, persistency improved, with 13th-month persistency rising 53 bps to 87.9%.\u003c/p\u003e\u003ch2\u003eDistribution and Product Mix\u003c/h2\u003e\u003cp\u003eSBI Life\u0027s banca channel remains the anchor at ~60% of APE, with SBI and RRB bancassurance contributing Rs 14,120 crore in individual APE (+11% YoY). The agency channel is a strategic focus, with APE growing 15% to Rs 6,860 crore supported by the addition of ~1.2 lakh agents and 120 new branches.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: SBI Life Press Release (April 22, 2026), ICICI Direct Research (April 23, 2026), Angel One (April 22, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-015",
+        "slug":  "new-india-assurance-q4-profit-jumps-61-but-underwriting-concerns-persist",
+        "title":  "New India Assurance Q4: Profit Jumps 61% but Underwriting Concerns Persist",
+        "category":  "General Insurance",
+        "tags":  [
+                     "FY26",
+                     "Q4",
+                     "PAT",
+                     "General Insurance",
+                     "New India"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-29",
+        "read_time":  "1 min read",
+        "summary":  "New India Assurance reported a 61% jump in Q4 profit, but the combined ratio worsened to 118.34% as wage revision costs of Rs 3,525 crore masked underlying weakness.",
+        "content":  "\u003cp\u003eNew India Assurance (NIA), India\u0027s largest general insurance multinational, reported a 61% YoY jump in Q4 FY26 net profit to Rs 558 crore, and a 40% rise in full-year PAT to Rs 1,384 crore. On the surface, these are impressive numbers â€” but the underlying picture is more nuanced.\u003c/p\u003e\u003ch2\u003eProfit Growth: Investment Income to the Rescue\u003c/h2\u003e\u003cp\u003eThe profit surge was driven entirely by investment income, which grew 38% to Rs 11,112 crore for FY26 (Q4: Rs 2,513 crore). The company monetised part of its investment portfolio to support wage-related expenses, generating substantial investment gains. Without this investment income cushion, the company would have reported a significant underwriting loss.\u003c/p\u003e\u003cp\u003eThe underwriting loss widened to Rs 8,882 crore for FY26 from Rs 6,124 crore in FY25, reflecting the structural challenges in NIA\u0027s core insurance operations.\u003c/p\u003e\u003ch2\u003eCombined Ratio: The Wage Revision Impact\u003c/h2\u003e\u003cp\u003eThe combined ratio â€” a key measure of underwriting profitability â€” worsened to 122.57% for FY26 from 116.78%. However, this includes the full impact of wage revision and family pension revisions amounting to Rs 3,525 crore during the year. Excluding this one-time impact, the adjusted combined ratio stood at 116.67% versus 115.34% in the previous year.\u003c/p\u003e\u003cp\u003eIn Q4 alone, the combined ratio stood at 118.34% versus 111.46% a year ago. The family pension revision from 15% to 30% added Rs 597 crore to Q4 expenses.\u003c/p\u003e\u003ch2\u003eSegment Performance\u003c/h2\u003e\u003cp\u003eGross Written Premium grew 8.2% to Rs 47,174 crore. Market share increased from 12.56% to 12.74%. The Health segment showed improved loss ratios. However, Motor Third Party faced pressure due to lack of premium revision, and the aviation segment also contributed to higher incurred claims.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Asia Insurance Post (May 11, 2026), AlphaStreet Earnings Call Transcript (May 14, 2026), TradeBrains (May 12, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-014",
+        "slug":  "irdais-regulatory-reforms-a-new-era-for-indian-insurance",
+        "title":  "IRDAI\u0027s Regulatory Reforms: A New Era for Indian Insurance",
         "category":  "IRDAI/Regulatory",
         "tags":  [
                      "LIC",
                      "IRDAI",
                      "RBC",
+                     "FDI",
                      "IRDAI/Regulatory"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-16",
+        "published_date":  "2026-05-28",
         "read_time":  "1 min read",
-        "summary":  "India\u0027s shift to a risk-based capital regime from April 2026 will fundamentally change how insurers price risk, allocate capital, and report profits.",
-        "content":  "\u003cp\u003eApril 2026 marks a pivotal moment for the Indian insurance industry with the introduction of the risk-based capital (RBC) framework. As highlighted in the FE BFSI analysis, this is the real market-moving shift in 2026 â€” quieter than the Amendment Act but more consequential for balance sheets.\u003c/p\u003e\u003ch2\u003eWhat is Risk-Based Capital?\u003c/h2\u003e\u003cp\u003eUnder the previous regime, insurers operated under a one-size-fits-all solvency requirement. RBC changes this fundamentally: insurers writing riskier business must hold more capital, while those with well-diversified, well-reinsured books can operate with lower capital buffers.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: FE BFSI Analysis (May 2026), IRDAI Guidelines\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "From 100% FDI to risk-based capital norms, IRDAI\u0027s regulatory overhaul is reshaping the Indian insurance sector.",
+        "content":  "\u003cp\u003eThe Indian insurance regulatory landscape is undergoing its most significant transformation in decades. The Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025, notified on December 21, 2025, and effective from February 5, 2026, marks a watershed moment for the sector.\u003c/p\u003e\u003ch2\u003eKey Legislative Changes\u003c/h2\u003e\u003ch3\u003e100% FDI in Insurance\u003c/h3\u003e\u003cp\u003eThe amendment raises the FDI limit in Indian insurance companies from 74% to 100%. This landmark decision is expected to attract stable long-term investment, facilitate technology transfer, and support greater insurance penetration.\u003c/p\u003e\u003ch3\u003eEnhanced Policyholder Protection\u003c/h3\u003e\u003cp\u003eIRDAI has been empowered to order disgorgement of wrongful gains made by insurers or intermediaries. The maximum penalty for non-compliance has been enhanced from Rs 1 crore to Rs 10 crore.\u003c/p\u003e\u003ch2\u003eRisk-Based Capital Framework\u003c/h2\u003e\u003cp\u003ePerhaps the most consequential market-moving shift in 2026 is the introduction of the risk-based capital (RBC) framework, which changes the economics of insurance â€” rewriting how insurers price risk, report profit, and use capital.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: PIB India, IRDAI Official Release (March 2026), FE BFSI Analysis (May 2026)\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-007",
-        "slug":  "gst-exemption-on-insurance-analysing-the-impact-six-months-on",
-        "title":  "GST Exemption on Insurance: Analysing the Impact Six Months On",
+        "id":  "BLG-013",
+        "slug":  "sbi-general-insurance-crosses-rs-15000-crore-gdp-a-growth-milestone",
+        "title":  "SBI General Insurance Crosses Rs 15,000 Crore GDP: A Growth Milestone",
+        "category":  "General Insurance",
+        "tags":  [
+                     "SBI",
+                     "GST",
+                     "FY26",
+                     "PAT",
+                     "General Insurance"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-27",
+        "read_time":  "1 min read",
+        "summary":  "SBI General Insurance achieved a historic milestone, crossing Rs 15,000 crore in gross direct premium for the first time with 14.5% growth.",
+        "content":  "\u003cp\u003eSBI General Insurance delivered a strong FY26 performance, with Gross Direct Premium (GDP) rising 14.5% to Rs 15,904 crore â€” crossing the Rs 15,000 crore mark for the first time since inception. The company grew at 1.6 times the industry growth rate, further strengthening its market position.\u003c/p\u003e\u003ch2\u003eGrowth Across Segments\u003c/h2\u003e\u003cp\u003eThe growth was broad-based across key segments. Health insurance grew 27%, reflecting the post-GST exemption demand surge. Motor insurance grew 16%, supported by strong vehicle sales. Personal Accident (PA) grew an impressive 40%, and Fire insurance grew 10%.\u003c/p\u003e\u003cp\u003eThe company strengthened its position in the PA segment, maintaining its No. 1 ranking among private and SAHI insurers. Private and SAHI market share improved by 27 basis points to 7.17% from 6.90% in FY25.\u003c/p\u003e\u003ch2\u003eProfitability and Underwriting\u003c/h2\u003e\u003cp\u003ePAT rose 8.7% to Rs 553 crore from Rs 509 crore in FY25. The loss ratio improved significantly to 78.3% from 82.4%, reflecting better underwriting discipline. However, the combined ratio remains above 100% at approximately 109%, indicating that the core underwriting business is still operating at a loss.\u003c/p\u003e\u003cp\u003eThe solvency ratio stood at a healthy 1.90 times, comfortably above the regulatory requirement.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Economic Times (April 24, 2026), Business Standard (April 24, 2026), ET BFSI (April 28, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-012",
+        "slug":  "irdais-new-kmp-governance-why-your-insurance-ceos-pay-now-depends-on-your-claim",
+        "title":  "IRDAI\u0027s New KMP Governance: Why Your Insurance CEO\u0027s Pay Now Depends on Your Claim Experience",
         "category":  "IRDAI/Regulatory",
         "tags":  [
                      "LIC",
                      "IRDAI",
-                     "GST",
-                     "NBP",
+                     "PAT",
+                     "AUM",
+                     "Ind AS",
                      "IRDAI/Regulatory"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-19",
+        "published_date":  "2026-05-26",
         "read_time":  "1 min read",
-        "summary":  "Six months since the GST exemption on life and health insurance policies came into effect, we analyse the impact on premium growth and affordability.",
-        "content":  "\u003cp\u003eOn September 22, 2025, the Government of India granted GST exemption on all individual life insurance policies and health insurance policies (including family floater), along with reinsurance. The removal of the 18% GST was one of the most significant policy interventions in the insurance sector in recent years.\u003c/p\u003e\u003ch2\u003eImmediate Impact\u003c/h2\u003e\u003cp\u003eThe impact was pronounced and almost immediate. IRDAI\u0027s data shows that the health insurance segment recorded a growth rate of 14.41% up to January 2026, with standalone health insurers posting 17.89% growth.\u003c/p\u003e\u003cp\u003eFor life insurance, the GST exemption reduced the effective premium cost for policyholders, making protection and savings products more affordable. The individual NBP growth rebounded strongly to 17.0% in H2 FY2026.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: ICRA Insurance Sector Report (April 2026), IRDAI Data, PIB India\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "IRDAI has linked insurance executive compensation to customer outcomes â€” claim settlement speed, grievance redressal, and product performance.",
+        "content":  "\u003cp\u003eIn a landmark regulatory move on May 26, 2026, the Insurance Regulatory and Development Authority of India (IRDAI) amended its Corporate Governance for Insurers Regulations, 2024, linking the remuneration and incentives of Key Management Persons (KMPs) â€” including MDs, CEOs, and directors â€” to detailed customer-centric performance metrics.\u003c/p\u003e\u003ch2\u003eWhat Changed?\u003c/h2\u003e\u003cp\u003eIRDAI has mandated that at least 50% of variable pay for KMPs must be linked to six mandatory parameters: (1) financial soundness, (2) product performance, (3) claim responsiveness, (4) grievance redressal, (5) Ind AS implementation (10% weightage), and (6) removal of dark patterns (10% weightage). The remaining 50% is left to the board or nomination and remuneration committee.\u003c/p\u003e\u003cp\u003eThis represents a fundamental shift from the earlier principles-based approach to a more rule-based supervisory regime.\u003c/p\u003e\u003ch2\u003eFor Life Insurers\u003c/h2\u003e\u003cp\u003eSpecific metrics include AUM-to-total-premium ratio, renewal premium to new business premium ratio, policy retention metrics, and expense of management to GDP ratio. Poor policy persistency or rising expenses will now directly impact executive compensation.\u003c/p\u003e\u003ch2\u003eFor General and Health Insurers\u003c/h2\u003e\u003cp\u003eParameters include line-wise net incurred loss ratio, renewal premium to new business premium ratio, expense of management to GDP ratio, and claim responsiveness indicators. Delayed claim settlements or deteriorating loss ratios will hit executive pay.\u003c/p\u003e\u003ch2\u003ePublic Disclosure Mandates\u003c/h2\u003e\u003cp\u003eInsurers must now publish on their websites: financial soundness data quarterly; claim responsiveness, grievance handling, and product performance data monthly. This data must be easy to access and not require visitors to share personal details like phone numbers.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Hindu BusinessLine (May 26, 2026), Economic Times (May 26, 2026), Financial Express (May 26, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-011",
+        "slug":  "life-insurance-fy26-mid-tier-challengers-reshape-the-market",
+        "title":  "Life Insurance FY26: Mid-Tier Challengers Reshape the Market",
+        "category":  "Life Insurance",
+        "tags":  [
+                     "LIC",
+                     "SBI",
+                     "HDFC",
+                     "ICICI",
+                     "Bajaj",
+                     "IRDAI",
+                     "FY26",
+                     "PAT",
+                     "Life Insurance",
+                     "SBI Life",
+                     "HDFC Life",
+                     "ICICI Prudential",
+                     "Bajaj Allianz",
+                     "Max Life",
+                     "Kotak Life"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-25",
+        "read_time":  "1 min read",
+        "summary":  "IRDAI\u0027s FY2025-26 premium data reveals a structural shift as mid-tier insurers grow at 15.7% in retail premium, challenging the dominance of the Top 5 players.",
+        "content":  "\u003cp\u003eThe IRDAI\u0027s FY2025-26 first year premium data, released on April 21, 2026, tells a story of structural transformation in the Indian life insurance industry. While the headline number of 15.7% growth to Rs 4.60 lakh crore is impressive, the more significant story lies in the shifting dynamics between the top-tier and mid-tier insurers.\u003c/p\u003e\u003ch2\u003eThe Three-Tier Market Structure\u003c/h2\u003e\u003cp\u003eAnalysing IRDAI\u0027s 25-insurer data reveals distinct patterns across three tiers:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eTop 5 (LIC, SBI Life, HDFC Life, ICICI Prudential, Bajaj Allianz):\u003c/strong\u003e Together grew 14.6% but lost 0.82 points of market share, falling from 83.3% to 82.5%.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eMid-Tier (Max Life, ABSLI, Tata AIA, Kotak Life, PNB MetLife, Star Union Dai-ichi):\u003c/strong\u003e Four mid-tier insurers each added between Rs 1,968 crore and Rs 2,371 crore in first year premium.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eEmerging Insurers:\u003c/strong\u003e Grew 52.4% to Rs 5,321 crore with sum assured-to-premium ratio of 176x.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: NDTV Profit (April 27, 2026), IRDAI FY26 Premium Data\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-010",
+        "slug":  "cyber-insurance-in-india-a-rapidly-growing-market-taking-shape",
+        "title":  "Cyber Insurance in India: A Rapidly Growing Market Taking Shape",
+        "category":  "General Insurance",
+        "tags":  [
+                     "HDFC",
+                     "ICICI",
+                     "Bajaj",
+                     "DPDP",
+                     "General Insurance",
+                     "ICICI Lombard",
+                     "New India",
+                     "Bajaj Allianz"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-24",
+        "read_time":  "1 min read",
+        "summary":  "India\u0027s cyber insurance market is projected to grow at 28% CAGR to reach USD 8.8 billion by 2034, driven by DPDP Act compliance and rising ransomware threats.",
+        "content":  "\u003cp\u003eIndia\u0027s cyber insurance market is at an inflection point. Valued at USD 752.55 million in 2025, the market is projected to reach USD 8,848.15 million by 2034, growing at a compound annual growth rate of 28.09%. The gross written premium for cyber insurance in India is estimated at approximately Rs 1,200 crore for 2025-26.\u003c/p\u003e\u003ch2\u003eWhy Now? The Perfect Storm\u003c/h2\u003e\u003cp\u003eThree factors are converging to drive cyber insurance demand in India. First, the Digital Personal Data Protection (DPDP) Act is reshaping corporate risk profiles, with data fiduciaries now facing genuine liability exposure. Second, India experienced over 2.04 million cybersecurity incidents in the past year, with an average cost per incident of USD 2.5 million for large businesses. Third, the rapid digitalisation of BFSI, healthcare, IT, and retail sectors is expanding the attack surface.\u003c/p\u003e\u003cp\u003eRansomware remains the most visible threat. Indian reports show median ransomware payouts of approximately USD 481,000 (Rs 4.3 crore) and median ransom demands of approximately USD 961,000 (Rs 8 crore) per incident.\u003c/p\u003e\u003ch2\u003eMarket Dynamics\u003c/h2\u003e\u003cp\u003eCyber insurance premiums in India have stabilised after steep increases in 2023-24. Leading domestic underwriters include New India Assurance, ICICI Lombard, HDFC ERGO, and Bajaj Allianz, with Lloyd\u0027s of London capacity supplementing the domestic market for large limits.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IMARC Group Report, (Re)in Asia (May 5, 2026), Asia Insurance Post (December 2025), CybersecAsia (March 2026)\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
@@ -174,249 +290,133 @@
                         ]
     },
     {
-        "id":  "BLG-010",
-        "slug":  "cyber-insurance-in-india-a-rapidly-growing-market-taking-shape",
-        "title":  "Cyber Insurance in India: A Rapidly Growing Market Taking Shape",
-        "category":  "General Insurance",
-        "tags":  [
-                     "HDFC",
-                     "ICICI",
-                     "Bajaj",
-                     "DPDP",
-                     "General Insurance",
-                     "ICICI Lombard",
-                     "New India",
-                     "Bajaj Allianz"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-24",
-        "read_time":  "1 min read",
-        "summary":  "India\u0027s cyber insurance market is projected to grow at 28% CAGR to reach USD 8.8 billion by 2034, driven by DPDP Act compliance and rising ransomware threats.",
-        "content":  "\u003cp\u003eIndia\u0027s cyber insurance market is at an inflection point. Valued at USD 752.55 million in 2025, the market is projected to reach USD 8,848.15 million by 2034, growing at a compound annual growth rate of 28.09%. The gross written premium for cyber insurance in India is estimated at approximately Rs 1,200 crore for 2025-26.\u003c/p\u003e\u003ch2\u003eWhy Now? The Perfect Storm\u003c/h2\u003e\u003cp\u003eThree factors are converging to drive cyber insurance demand in India. First, the Digital Personal Data Protection (DPDP) Act is reshaping corporate risk profiles, with data fiduciaries now facing genuine liability exposure. Second, India experienced over 2.04 million cybersecurity incidents in the past year, with an average cost per incident of USD 2.5 million for large businesses. Third, the rapid digitalisation of BFSI, healthcare, IT, and retail sectors is expanding the attack surface.\u003c/p\u003e\u003cp\u003eRansomware remains the most visible threat. Indian reports show median ransomware payouts of approximately USD 481,000 (Rs 4.3 crore) and median ransom demands of approximately USD 961,000 (Rs 8 crore) per incident.\u003c/p\u003e\u003ch2\u003eMarket Dynamics\u003c/h2\u003e\u003cp\u003eCyber insurance premiums in India have stabilised after steep increases in 2023-24. Leading domestic underwriters include New India Assurance, ICICI Lombard, HDFC ERGO, and Bajaj Allianz, with Lloyd\u0027s of London capacity supplementing the domestic market for large limits.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IMARC Group Report, (Re)in Asia (May 5, 2026), Asia Insurance Post (December 2025), CybersecAsia (March 2026)\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-011",
-        "slug":  "life-insurance-fy26-mid-tier-challengers-reshape-the-market",
-        "title":  "Life Insurance FY26: Mid-Tier Challengers Reshape the Market",
-        "category":  "Life Insurance",
-        "tags":  [
-                     "LIC",
-                     "SBI",
-                     "HDFC",
-                     "ICICI",
-                     "Bajaj",
-                     "IRDAI",
-                     "FY26",
-                     "PAT",
-                     "Life Insurance",
-                     "SBI Life",
-                     "HDFC Life",
-                     "ICICI Prudential",
-                     "Bajaj Allianz",
-                     "Max Life",
-                     "Kotak Life"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-25",
-        "read_time":  "1 min read",
-        "summary":  "IRDAI\u0027s FY2025-26 premium data reveals a structural shift as mid-tier insurers grow at 15.7% in retail premium, challenging the dominance of the Top 5 players.",
-        "content":  "\u003cp\u003eThe IRDAI\u0027s FY2025-26 first year premium data, released on April 21, 2026, tells a story of structural transformation in the Indian life insurance industry. While the headline number of 15.7% growth to Rs 4.60 lakh crore is impressive, the more significant story lies in the shifting dynamics between the top-tier and mid-tier insurers.\u003c/p\u003e\u003ch2\u003eThe Three-Tier Market Structure\u003c/h2\u003e\u003cp\u003eAnalysing IRDAI\u0027s 25-insurer data reveals distinct patterns across three tiers:\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eTop 5 (LIC, SBI Life, HDFC Life, ICICI Prudential, Bajaj Allianz):\u003c/strong\u003e Together grew 14.6% but lost 0.82 points of market share, falling from 83.3% to 82.5%.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eMid-Tier (Max Life, ABSLI, Tata AIA, Kotak Life, PNB MetLife, Star Union Dai-ichi):\u003c/strong\u003e Four mid-tier insurers each added between Rs 1,968 crore and Rs 2,371 crore in first year premium.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eEmerging Insurers:\u003c/strong\u003e Grew 52.4% to Rs 5,321 crore with sum assured-to-premium ratio of 176x.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: NDTV Profit (April 27, 2026), IRDAI FY26 Premium Data\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-012",
-        "slug":  "irdais-new-kmp-governance-why-your-insurance-ceos-pay-now-depends-on-your-claim",
-        "title":  "IRDAI\u0027s New KMP Governance: Why Your Insurance CEO\u0027s Pay Now Depends on Your Claim Experience",
+        "id":  "BLG-007",
+        "slug":  "gst-exemption-on-insurance-analysing-the-impact-six-months-on",
+        "title":  "GST Exemption on Insurance: Analysing the Impact Six Months On",
         "category":  "IRDAI/Regulatory",
         "tags":  [
                      "LIC",
                      "IRDAI",
-                     "PAT",
-                     "AUM",
-                     "Ind AS",
+                     "GST",
+                     "NBP",
                      "IRDAI/Regulatory"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-26",
+        "published_date":  "2026-05-19",
         "read_time":  "1 min read",
-        "summary":  "IRDAI has linked insurance executive compensation to customer outcomes â€” claim settlement speed, grievance redressal, and product performance.",
-        "content":  "\u003cp\u003eIn a landmark regulatory move on May 26, 2026, the Insurance Regulatory and Development Authority of India (IRDAI) amended its Corporate Governance for Insurers Regulations, 2024, linking the remuneration and incentives of Key Management Persons (KMPs) â€” including MDs, CEOs, and directors â€” to detailed customer-centric performance metrics.\u003c/p\u003e\u003ch2\u003eWhat Changed?\u003c/h2\u003e\u003cp\u003eIRDAI has mandated that at least 50% of variable pay for KMPs must be linked to six mandatory parameters: (1) financial soundness, (2) product performance, (3) claim responsiveness, (4) grievance redressal, (5) Ind AS implementation (10% weightage), and (6) removal of dark patterns (10% weightage). The remaining 50% is left to the board or nomination and remuneration committee.\u003c/p\u003e\u003cp\u003eThis represents a fundamental shift from the earlier principles-based approach to a more rule-based supervisory regime.\u003c/p\u003e\u003ch2\u003eFor Life Insurers\u003c/h2\u003e\u003cp\u003eSpecific metrics include AUM-to-total-premium ratio, renewal premium to new business premium ratio, policy retention metrics, and expense of management to GDP ratio. Poor policy persistency or rising expenses will now directly impact executive compensation.\u003c/p\u003e\u003ch2\u003eFor General and Health Insurers\u003c/h2\u003e\u003cp\u003eParameters include line-wise net incurred loss ratio, renewal premium to new business premium ratio, expense of management to GDP ratio, and claim responsiveness indicators. Delayed claim settlements or deteriorating loss ratios will hit executive pay.\u003c/p\u003e\u003ch2\u003ePublic Disclosure Mandates\u003c/h2\u003e\u003cp\u003eInsurers must now publish on their websites: financial soundness data quarterly; claim responsiveness, grievance handling, and product performance data monthly. This data must be easy to access and not require visitors to share personal details like phone numbers.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Hindu BusinessLine (May 26, 2026), Economic Times (May 26, 2026), Financial Express (May 26, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "Six months since the GST exemption on life and health insurance policies came into effect, we analyse the impact on premium growth and affordability.",
+        "content":  "\u003cp\u003eOn September 22, 2025, the Government of India granted GST exemption on all individual life insurance policies and health insurance policies (including family floater), along with reinsurance. The removal of the 18% GST was one of the most significant policy interventions in the insurance sector in recent years.\u003c/p\u003e\u003ch2\u003eImmediate Impact\u003c/h2\u003e\u003cp\u003eThe impact was pronounced and almost immediate. IRDAI\u0027s data shows that the health insurance segment recorded a growth rate of 14.41% up to January 2026, with standalone health insurers posting 17.89% growth.\u003c/p\u003e\u003cp\u003eFor life insurance, the GST exemption reduced the effective premium cost for policyholders, making protection and savings products more affordable. The individual NBP growth rebounded strongly to 17.0% in H2 FY2026.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: ICRA Insurance Sector Report (April 2026), IRDAI Data, PIB India\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-013",
-        "slug":  "sbi-general-insurance-crosses-rs-15000-crore-gdp-a-growth-milestone",
-        "title":  "SBI General Insurance Crosses Rs 15,000 Crore GDP: A Growth Milestone",
-        "category":  "General Insurance",
-        "tags":  [
-                     "SBI",
-                     "GST",
-                     "FY26",
-                     "PAT",
-                     "General Insurance"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-27",
-        "read_time":  "1 min read",
-        "summary":  "SBI General Insurance achieved a historic milestone, crossing Rs 15,000 crore in gross direct premium for the first time with 14.5% growth.",
-        "content":  "\u003cp\u003eSBI General Insurance delivered a strong FY26 performance, with Gross Direct Premium (GDP) rising 14.5% to Rs 15,904 crore â€” crossing the Rs 15,000 crore mark for the first time since inception. The company grew at 1.6 times the industry growth rate, further strengthening its market position.\u003c/p\u003e\u003ch2\u003eGrowth Across Segments\u003c/h2\u003e\u003cp\u003eThe growth was broad-based across key segments. Health insurance grew 27%, reflecting the post-GST exemption demand surge. Motor insurance grew 16%, supported by strong vehicle sales. Personal Accident (PA) grew an impressive 40%, and Fire insurance grew 10%.\u003c/p\u003e\u003cp\u003eThe company strengthened its position in the PA segment, maintaining its No. 1 ranking among private and SAHI insurers. Private and SAHI market share improved by 27 basis points to 7.17% from 6.90% in FY25.\u003c/p\u003e\u003ch2\u003eProfitability and Underwriting\u003c/h2\u003e\u003cp\u003ePAT rose 8.7% to Rs 553 crore from Rs 509 crore in FY25. The loss ratio improved significantly to 78.3% from 82.4%, reflecting better underwriting discipline. However, the combined ratio remains above 100% at approximately 109%, indicating that the core underwriting business is still operating at a loss.\u003c/p\u003e\u003cp\u003eThe solvency ratio stood at a healthy 1.90 times, comfortably above the regulatory requirement.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Economic Times (April 24, 2026), Business Standard (April 24, 2026), ET BFSI (April 28, 2026)\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-014",
-        "slug":  "irdais-regulatory-reforms-a-new-era-for-indian-insurance",
-        "title":  "IRDAI\u0027s Regulatory Reforms: A New Era for Indian Insurance",
+        "id":  "BLG-006",
+        "slug":  "risk-based-capital-in-india-what-it-means-for-insurers-and-policyholders",
+        "title":  "Risk-Based Capital in India: What It Means for Insurers and Policyholders",
         "category":  "IRDAI/Regulatory",
         "tags":  [
                      "LIC",
                      "IRDAI",
                      "RBC",
-                     "FDI",
                      "IRDAI/Regulatory"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-28",
+        "published_date":  "2026-05-16",
         "read_time":  "1 min read",
-        "summary":  "From 100% FDI to risk-based capital norms, IRDAI\u0027s regulatory overhaul is reshaping the Indian insurance sector.",
-        "content":  "\u003cp\u003eThe Indian insurance regulatory landscape is undergoing its most significant transformation in decades. The Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025, notified on December 21, 2025, and effective from February 5, 2026, marks a watershed moment for the sector.\u003c/p\u003e\u003ch2\u003eKey Legislative Changes\u003c/h2\u003e\u003ch3\u003e100% FDI in Insurance\u003c/h3\u003e\u003cp\u003eThe amendment raises the FDI limit in Indian insurance companies from 74% to 100%. This landmark decision is expected to attract stable long-term investment, facilitate technology transfer, and support greater insurance penetration.\u003c/p\u003e\u003ch3\u003eEnhanced Policyholder Protection\u003c/h3\u003e\u003cp\u003eIRDAI has been empowered to order disgorgement of wrongful gains made by insurers or intermediaries. The maximum penalty for non-compliance has been enhanced from Rs 1 crore to Rs 10 crore.\u003c/p\u003e\u003ch2\u003eRisk-Based Capital Framework\u003c/h2\u003e\u003cp\u003ePerhaps the most consequential market-moving shift in 2026 is the introduction of the risk-based capital (RBC) framework, which changes the economics of insurance â€” rewriting how insurers price risk, report profit, and use capital.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: PIB India, IRDAI Official Release (March 2026), FE BFSI Analysis (May 2026)\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "India\u0027s shift to a risk-based capital regime from April 2026 will fundamentally change how insurers price risk, allocate capital, and report profits.",
+        "content":  "\u003cp\u003eApril 2026 marks a pivotal moment for the Indian insurance industry with the introduction of the risk-based capital (RBC) framework. As highlighted in the FE BFSI analysis, this is the real market-moving shift in 2026 â€” quieter than the Amendment Act but more consequential for balance sheets.\u003c/p\u003e\u003ch2\u003eWhat is Risk-Based Capital?\u003c/h2\u003e\u003cp\u003eUnder the previous regime, insurers operated under a one-size-fits-all solvency requirement. RBC changes this fundamentally: insurers writing riskier business must hold more capital, while those with well-diversified, well-reinsured books can operate with lower capital buffers.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: FE BFSI Analysis (May 2026), IRDAI Guidelines\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-015",
-        "slug":  "new-india-assurance-q4-profit-jumps-61-but-underwriting-concerns-persist",
-        "title":  "New India Assurance Q4: Profit Jumps 61% but Underwriting Concerns Persist",
+        "id":  "BLG-005",
+        "slug":  "indias-rising-position-in-the-global-insurance-landscape",
+        "title":  "India\u0027s Rising Position in the Global Insurance Landscape",
+        "category":  "General Insurance",
+        "tags":  "General Insurance",
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-13",
+        "read_time":  "1 min read",
+        "summary":  "India is now the 10th largest insurance market globally with 1.8% market share. Swiss Re forecasts India will be the fastest-growing major insurance market over 2026-2030.",
+        "content":  "\u003cp\u003eIndia\u0027s insurance sector has firmly established itself on the global stage. According to the Swiss Re Sigma Report (No. 2/2025), India remained the 10th largest insurance market in the world by nominal premium volumes in 2024, with a global market share of 1.8%.\u003c/p\u003e\u003ch2\u003eGrowth Trajectory\u003c/h2\u003e\u003cp\u003eThe Swiss Re analysis projects mid-term annual premium growth at 6.9% between 2026 and 2030, making India the strongest growing major insurance market â€” outpacing China (~4%), the US (~2%), and Western European markets.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Swiss Re Sigma Report (No. 2/2025), Swiss Re India Outlook (January 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-004",
+        "slug":  "motor-insurance-in-india-navigating-change-in-2026",
+        "title":  "Motor Insurance in India: Navigating Change in 2026",
+        "category":  "Motor",
+        "tags":  [
+                     "GST",
+                     "Motor"
+                 ],
+        "author":  "Prasad Chandra Kulal",
+        "published_date":  "2026-05-10",
+        "read_time":  "1 min read",
+        "summary":  "Motor insurance, the largest segment in India\u0027s general insurance industry, is undergoing significant changes with GST rationalisation and regulatory shifts.",
+        "content":  "\u003cp\u003eMotor insurance remains the backbone of India\u0027s general insurance industry, contributing the largest share of premiums. The segment is undergoing significant transformation in 2026, driven by regulatory changes, evolving consumer behaviour, and technological disruption.\u003c/p\u003e\u003ch2\u003eGrowth Drivers\u003c/h2\u003e\u003cp\u003eSwiss Re forecasts that motor insurance in India will grow at 7.5% per year over 2026-2030, driven by greater vehicle uptake and increasing awareness of insurance coverage. The rationalisation of GST for vehicles has also provided a nudge to motor insurance premium growth.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Swiss Re India Outlook (January 2026), ICRA Sector Report (April 2026)\u003c/em\u003e\u003c/p\u003e",
+        "previous_coverage":  null,
+        "related_ids":  [
+
+                        ]
+    },
+    {
+        "id":  "BLG-003",
+        "slug":  "digital-transformation-in-indian-insurance-from-insurtech-to-ai",
+        "title":  "Digital Transformation in Indian Insurance: From Insurtech to AI",
         "category":  "General Insurance",
         "tags":  [
-                     "FY26",
-                     "Q4",
-                     "PAT",
-                     "General Insurance",
-                     "New India"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-29",
-        "read_time":  "1 min read",
-        "summary":  "New India Assurance reported a 61% jump in Q4 profit, but the combined ratio worsened to 118.34% as wage revision costs of Rs 3,525 crore masked underlying weakness.",
-        "content":  "\u003cp\u003eNew India Assurance (NIA), India\u0027s largest general insurance multinational, reported a 61% YoY jump in Q4 FY26 net profit to Rs 558 crore, and a 40% rise in full-year PAT to Rs 1,384 crore. On the surface, these are impressive numbers â€” but the underlying picture is more nuanced.\u003c/p\u003e\u003ch2\u003eProfit Growth: Investment Income to the Rescue\u003c/h2\u003e\u003cp\u003eThe profit surge was driven entirely by investment income, which grew 38% to Rs 11,112 crore for FY26 (Q4: Rs 2,513 crore). The company monetised part of its investment portfolio to support wage-related expenses, generating substantial investment gains. Without this investment income cushion, the company would have reported a significant underwriting loss.\u003c/p\u003e\u003cp\u003eThe underwriting loss widened to Rs 8,882 crore for FY26 from Rs 6,124 crore in FY25, reflecting the structural challenges in NIA\u0027s core insurance operations.\u003c/p\u003e\u003ch2\u003eCombined Ratio: The Wage Revision Impact\u003c/h2\u003e\u003cp\u003eThe combined ratio â€” a key measure of underwriting profitability â€” worsened to 122.57% for FY26 from 116.78%. However, this includes the full impact of wage revision and family pension revisions amounting to Rs 3,525 crore during the year. Excluding this one-time impact, the adjusted combined ratio stood at 116.67% versus 115.34% in the previous year.\u003c/p\u003e\u003cp\u003eIn Q4 alone, the combined ratio stood at 118.34% versus 111.46% a year ago. The family pension revision from 15% to 30% added Rs 597 crore to Q4 expenses.\u003c/p\u003e\u003ch2\u003eSegment Performance\u003c/h2\u003e\u003cp\u003eGross Written Premium grew 8.2% to Rs 47,174 crore. Market share increased from 12.56% to 12.74%. The Health segment showed improved loss ratios. However, Motor Third Party faced pressure due to lack of premium revision, and the aviation segment also contributed to higher incurred claims.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Asia Insurance Post (May 11, 2026), AlphaStreet Earnings Call Transcript (May 14, 2026), TradeBrains (May 12, 2026)\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-016",
-        "slug":  "sbi-life-fy26-steady-growth-margin-resilience-and-distribution-strength",
-        "title":  "SBI Life FY26: Steady Growth, Margin Resilience, and Distribution Strength",
-        "category":  "Life Insurance",
-        "tags":  [
-                     "SBI",
-                     "ICICI",
-                     "GST",
-                     "FY26",
-                     "PAT",
-                     "VNB",
-                     "NBP",
-                     "GWP",
-                     "Life Insurance",
-                     "SBI Life"
-                 ],
-        "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-05-31",
-        "read_time":  "1 min read",
-        "summary":  "SBI Life delivered 20% NBP growth with VNB margins at 27.5% â€” the upper end of guidance. A detailed analysis of the insurer\u0027s FY26 performance.",
-        "content":  "\u003cp\u003eSBI Life Insurance navigated a challenging FY26 with notable resilience. The insurer reported New Business Premium (NBP) growth of 20% YoY to Rs 42,550 crore, while maintaining its VNB margin at 27.5% â€” at the upper end of the 26-28% guided range. Excluding GST impact, the underlying VNB margin would have been approximately 29%.\u003c/p\u003e\u003ch2\u003eGrowth Drivers\u003c/h2\u003e\u003cp\u003eThe growth was broad-based across segments. Group savings surged 55% YoY to Rs 8,480 crore, annuity premiums grew 34% to Rs 7,030 crore, and the par segment posted exceptional 123% growth to Rs 1,670 crore. Individual protection grew a healthy 23%, reflecting the company\u0027s focus on protection-oriented products.\u003c/p\u003e\u003cp\u003eGross Written Premium (GWP) crossed the Rs 1 lakh crore milestone at Rs 1,01,290 crore, up 19%. Renewal premium grew 19% to Rs 58,730 crore, now constituting 58% of GWP and providing a stable earnings base.\u003c/p\u003e\u003ch2\u003eMargin and Profitability\u003c/h2\u003e\u003cp\u003eValue of New Business (VNB) grew 12% to Rs 6,670 crore, with VNB margin holding steady at 27.5%. The Indian Embedded Value (IEV) increased 15% to Rs 80,790 crore, while operating RoEV stood at a healthy 19.7%. PAT grew a modest 2% to Rs 2,470 crore.\u003c/p\u003e\u003cp\u003eThe expense of management ratio increased to 6.1% from 5.3%, and the total cost ratio to 10.6% from 9.7%, driven by GST on commissions and investments in distribution expansion. However, persistency improved, with 13th-month persistency rising 53 bps to 87.9%.\u003c/p\u003e\u003ch2\u003eDistribution and Product Mix\u003c/h2\u003e\u003cp\u003eSBI Life\u0027s banca channel remains the anchor at ~60% of APE, with SBI and RRB bancassurance contributing Rs 14,120 crore in individual APE (+11% YoY). The agency channel is a strategic focus, with APE growing 15% to Rs 6,860 crore supported by the addition of ~1.2 lakh agents and 120 new branches.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: SBI Life Press Release (April 22, 2026), ICICI Direct Research (April 23, 2026), Angel One (April 22, 2026)\u003c/em\u003e\u003c/p\u003e",
-        "previous_coverage":  null,
-        "related_ids":  [
-
-                        ]
-    },
-    {
-        "id":  "BLG-017",
-        "slug":  "health-insurance-trends-reshaping-india-in-2026",
-        "title":  "Health Insurance Trends Reshaping India in 2026",
-        "category":  "Health",
-        "tags":  [
-                     "LIC",
                      "IRDAI",
-                     "GST",
-                     "GDPI",
-                     "Health"
+                     "FDI",
+                     "General Insurance"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-06-01",
+        "published_date":  "2026-05-07",
         "read_time":  "1 min read",
-        "summary":  "Health insurance premiums grew 14.41% in FY26 driven by GST exemption and rising healthcare awareness.",
-        "content":  "\u003cp\u003eThe Indian health insurance sector is experiencing a transformative phase in 2026, with premium growth accelerating and regulatory changes reshaping the market dynamics. As per IRDAI\u0027s 134th meeting review, the health insurance segment recorded a growth rate of 14.41% up to January 2026, with standalone health insurers outperforming at 17.89% growth and premium collections reaching Rs 35,815 crore.\u003c/p\u003e\u003ch2\u003eGST Exemption: A Game-Changer\u003c/h2\u003e\u003cp\u003eThe single most impactful policy change has been the GST exemption on health insurance policies, effective September 22, 2025. The removal of the 18% GST on retail health insurance policies has significantly reduced premium costs, making coverage more affordable for millions of Indian households.\u003c/p\u003e\u003cp\u003eAccording to ICRA\u0027s analysis, health insurance is expected to remain the primary growth driver for the non-life sector in FY2027, with industry GDPI projected to grow by 9.7-10.6%.\u003c/p\u003e\u003ch2\u003eSenior Citizen Coverage Expansion\u003c/h2\u003e\u003cp\u003eIn September 2024, the government expanded health coverage to all senior citizens aged 70 years and above, irrespective of income. As of February 2026, a total of 43.52 crore Ayushman cards have been created under the programme.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IRDAI 134th Meeting Report (March 2026), ICRA Insurance Sector Report (April 2026), PIB India\u003c/em\u003e\u003c/p\u003e",
+        "summary":  "Technology is reshaping every aspect of the insurance value chain in India, from underwriting to claims management and customer engagement.",
+        "content":  "\u003cp\u003eThe Indian insurance industry is in the midst of a profound digital transformation. From artificial intelligence-powered underwriting to blockchain-based claims processing, technology is reshaping how insurers operate, how products are distributed, and how customers experience insurance.\u003c/p\u003e\u003ch2\u003eThe Insurtech Landscape\u003c/h2\u003e\u003cp\u003eIndia\u0027s insurtech ecosystem has matured significantly. The 100% FDI allowance under the SBSR Act is expected to accelerate technology transfer and attract global investment in insurance technology platforms.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Industry Analysis, IRDAI Reports\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-018",
-        "slug":  "icici-lombard-fy26-health-led-growth-story-gains-momentum",
-        "title":  "ICICI Lombard FY26: Health-Led Growth Story Gains Momentum",
-        "category":  "General Insurance",
+        "id":  "BLG-002",
+        "slug":  "insurance-for-all-by-2047-assessing-indias-progress",
+        "title":  "Insurance for All by 2047: Assessing India\u0027s Progress",
+        "category":  "IRDAI/Regulatory",
         "tags":  [
-                     "ICICI",
-                     "GST",
-                     "FY26",
-                     "Q4",
-                     "PAT",
-                     "GDPI",
-                     "General Insurance",
-                     "ICICI Lombard"
+                     "IRDAI",
+                     "IRDAI/Regulatory"
                  ],
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-06-02",
-        "read_time":  "2 min read",
-        "summary":  "ICICI Lombard\u0027s Q4 GDPI surged 18.2% â€” nearly double the industry rate â€” driven by retail health insurance growing 54%.",
-        "content":  "\u003cp\u003eICICI Lombard, India\u0027s largest private sector general insurer, delivered a strong Q4 FY26 performance that underscores its health-led growth strategy. The company reported a 7.3% YoY rise in Q4 PAT to Rs 546.6 crore, but the real story lies in the premium growth trajectory and portfolio transformation.\u003c/p\u003e\u003ch2\u003eQ4 Momentum: Outpacing the Industry\u003c/h2\u003e\u003cp\u003eGross Direct Premium Income (GDPI) on a 1/N basis grew 18.2% in Q4 to Rs 7,340 crore, well above the industry growth of 10.9%. Excluding crop and mass health segments, GDPI growth was 18.4% against the industry\u0027s 13.3%. This marks a sharp acceleration from the full-year GDPI growth of 7%, which lagged the industry\u0027s 9.2%.\u003c/p\u003e\u003cp\u003eThe Q4 performance demonstrates that ICICI Lombard\u0027s growth engine is firing on all cylinders as the year progressed, with management expressing confidence in sustained momentum through FY27, led by retail health and motor segments.\u003c/p\u003e\u003ch2\u003eHealth: The Growth Engine\u003c/h2\u003e\u003cp\u003eHealth insurance was the standout performer. Health GDPI grew 18.3% to Rs 9,077 crore for FY26, with the individual retail health line surging 54% annually and an extraordinary 65% in Q4 alone. The company\u0027s retail health market share improved to 4.1% from 3.3% in FY25 â€” a meaningful gain in a competitive segment.\u003c/p\u003e\u003cp\u003eManagement attributed part of the retail momentum to GST reforms, which expanded the base of new customers. The health claims ratio also improved, with the group health loss ratio declining to 97.2% in Q4 from 98% a year ago, and the full-year loss ratio improving to 91.9% from 98.1%.\u003c/p\u003e\u003ch2\u003eMotor and Combined Ratio\u003c/h2\u003e\u003cp\u003eThe motor insurance segment â€” still the largest at ~40% of portfolio â€” posted 15% GDPI growth in Q4, supported by strong vehicle sales (auto sales rose 25% in March alone). The combined ratio improved 130 bps YoY to 101.2% in Q4, though it remains above 100%, indicating the core underwriting business is not yet profitable.\u003c/p\u003e\u003cp\u003eThe full-year combined ratio stood at 103.4%. Investment income grew 27.4% to Rs 796.68 crore, providing the cushion that lifted overall profitability. The solvency ratio remained robust at 2.67x.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Reuters (April 15, 2026), Business Standard (April 15-16, 2026), ICICI Lombard Earnings Call (April 15, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "published_date":  "2026-05-04",
+        "read_time":  "1 min read",
+        "summary":  "IRDAI\u0027s ambitious vision of \u0027Insurance for All by 2047\u0027 is gaining momentum. An assessment of progress, challenges, and the road ahead.",
+        "content":  "\u003cp\u003eThe Insurance Regulatory and Development Authority of India (IRDAI) has set an ambitious vision: \u0027Insurance for All by 2047\u0027, aligning with the government\u0027s broader \u0027Viksit Bharat 2047\u0027 goal. This vision aims to ensure that every citizen has access to adequate insurance coverage, whether for life, health, or property.\u003c/p\u003e\u003ch2\u003eCurrent State of Insurance Coverage\u003c/h2\u003e\u003cp\u003eIndia\u0027s insurance penetration stood at 3.7% in FY2024-25, with life insurance at 2.7% and non-life at 1.0%. While this represents progress from historical levels, it remains significantly below the global average of 7.3%.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: IRDAI Annual Report 2024-25, PIB India\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
                         ]
     },
     {
-        "id":  "BLG-019",
-        "slug":  "lic-q4-fy26-deep-dive-record-profit-surging-vnb-and-the-margin-story",
-        "title":  "LIC Q4 FY26 Deep Dive: Record Profit, Surging VNB, and the Margin Story",
-        "category":  "Life Insurance",
-        "tags":  [
-                     "LIC",
-                     "SBI",
-                     "HDFC",
-                     "FY26",
-                     "Q4",
-                     "PAT",
-                     "VNB",
-                     "AUM",
-                     "Ind AS",
-                     "Life Insurance",
-                     "SBI Life",
-                     "HDFC Life"
-                 ],
+        "id":  "BLG-001",
+        "slug":  "crop-insurance-in-india-addressing-the-agricultural-protection-gap",
+        "title":  "Crop Insurance in India: Addressing the Agricultural Protection Gap",
+        "category":  "Personal Lines",
+        "tags":  "Personal Lines",
         "author":  "Prasad Chandra Kulal",
-        "published_date":  "2026-06-04",
-        "read_time":  "2 min read",
-        "summary":  "LIC reported a record Rs 57,419 crore PAT for FY26 with VNB surging 42%. A deep dive into the performance of India\u0027s largest life insurer.",
-        "content":  "\u003cp\u003eLife Insurance Corporation of India (LIC) closed FY26 with a stellar performance, reporting a consolidated net profit of Rs 23,467 crore in Q4 â€” up 23% YoY â€” and a record full-year PAT of Rs 57,419 crore, up 19% from FY25. The results were accompanied by a Rs 10 per share final dividend and a maiden 1:1 bonus issue.\u003c/p\u003e\u003ch2\u003eThe VNB Story: Growth vs Margin\u003c/h2\u003e\u003cp\u003eThe headline VNB growth of 42% to Rs 14,179 crore for FY26 is impressive. However, a closer look reveals nuance: while Q4 VNB surged 66.7% to Rs 5,891 crore with margins expanding to 25.66% (from 18.75%), the full-year VNB margin of 21.2% â€” though up 360 bps from 17.6% â€” still trails private sector peers like SBI Life (27.5%) and HDFC Life.\u003c/p\u003e\u003cp\u003eManagement attributed the margin improvement to a favourable product mix shift, with non-par products now accounting for over 35% of individual APE. The channel diversification strategy has also delivered, with banca and alternate channels recording growth of over 45% and premium collections crossing Rs 5,000 crore during FY26.\u003c/p\u003e\u003ch2\u003eKey Metrics\u003c/h2\u003e\u003cp\u003eLIC\u0027s Q4 APE rose 22% to Rs 22,954 crore, while net premium income grew 12% to Rs 1.65 trillion. Net investment income rose 17% to Rs 1.09 trillion, reflecting strong returns on the insurer\u0027s massive AUM of Rs 57.3 lakh crore.\u003c/p\u003e\u003cp\u003eThe solvency ratio improved to 2.35 from 2.11, comfortably above the regulatory requirement. However, the 13th-month persistency ratio weakened to 67.77% from 68.62%, signalling some pressure on policy retention â€” an area that warrants monitoring.\u003c/p\u003e\u003ch2\u003eOutlook\u003c/h2\u003e\u003cp\u003eWith the recent 1:1 bonus issue and strong capital position, LIC is well-placed to navigate the transition to Ind AS 117 and the risk-based capital framework. The key challenge will be sustaining margin improvement while managing the expense ratio, which rose to 12.52% from 11.15%.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Economic Times (May 21, 2026), Business Standard (May 21, 2026), CNBC TV18 (May 21, 2026), Fortune India (May 21, 2026)\u003c/em\u003e\u003c/p\u003e",
+        "published_date":  "2026-04-28",
+        "read_time":  "1 min read",
+        "summary":  "Crop insurance premiums declined 43.6% in FY26, highlighting the challenges in India\u0027s agricultural insurance framework.",
+        "content":  "\u003cp\u003eThe crop insurance segment in India has faced significant headwinds, with premiums declining 43.6% YoY in 11M FY2026. This sharp decline has been a major drag on the non-life insurance industry\u0027s overall growth, highlighting the structural challenges in India\u0027s agricultural insurance framework.\u003c/p\u003e\u003ch2\u003eThe Pradhan Mantri Fasal Bima Yojana (PMFBY)\u003c/h2\u003e\u003cp\u003eLaunched in 2016, PMFBY is India\u0027s flagship crop insurance scheme, aiming to provide affordable insurance coverage to farmers against crop loss due to natural calamities, pests, and diseases.\u003c/p\u003e\u003cp\u003e\u003cem\u003eSources: Business Standard (April 2026), ICRA Insurance Sector Report (April 2026)\u003c/em\u003e\u003c/p\u003e",
         "previous_coverage":  null,
         "related_ids":  [
 
