@@ -124,12 +124,12 @@ document.addEventListener('DOMContentLoaded', () => {
         function filterBlogPage() {
             let filtered = allBlogPosts;
             if (blogFilter !== 'all') {
-                filtered = filtered.filter(p => p.label === blogFilter);
+                filtered = filtered.filter(p => p.category === blogFilter);
             }
             if (blogSearch) {
                 filtered = filtered.filter(p =>
                     p.title.toLowerCase().includes(blogSearch) ||
-                    p.excerpt.toLowerCase().includes(blogSearch)
+                    p.summary.toLowerCase().includes(blogSearch)
                 );
             }
             renderBlogPage(filtered);
@@ -142,11 +142,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             blogFeedContainer.innerHTML = posts.map((item, index) => `
                 <a href="post.html?id=${item.id}" class="blog-card">
-                    <span class="blog-card-tag">${item.label}</span>
+                    <span class="blog-card-tag">${item.category}</span>
                     <h2 class="blog-card-title">${item.title}</h2>
-                    <p class="blog-card-excerpt">${item.excerpt}</p>
+                    <p class="blog-card-excerpt">${item.summary}</p>
                     <div class="blog-card-footer">
-                        <div class="blog-card-meta"><strong>${item.author}</strong> · ${item.date} · 6 min read</div>
+                        <div class="blog-card-meta"><strong>${item.author}</strong> · ${item.published_date} · ${item.read_time}</div>
                         <span class="blog-card-more">Read more →</span>
                     </div>
                 </a>
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         function filterNewsPage() {
             let filtered = allNewsItems;
             if (newsFilter !== 'all') {
-                filtered = filtered.filter(p => p.label === newsFilter);
+                filtered = filtered.filter(p => p.category === newsFilter);
             }
             if (newsSearch) {
                 filtered = filtered.filter(p =>
@@ -209,11 +209,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             newsFeedContainer.innerHTML = items.map((item, index) => `
                 <a href="post.html?id=${item.id}" class="blog-card">
-                    <span class="blog-card-tag">${item.label}</span>
+                    <span class="blog-card-tag">${item.category}</span>
                     <h2 class="blog-card-title">${item.title}</h2>
                     <p class="blog-card-excerpt">${item.summary}</p>
                     <div class="blog-card-footer">
-                        <div class="blog-card-meta"><strong>${item.source}</strong> · ${item.date}</div>
+                        <div class="blog-card-meta"><strong>${item.source || item.author}</strong> · ${item.published_date}</div>
                         <span class="blog-card-more">Read more →</span>
                     </div>
                 </a>
@@ -225,9 +225,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const singlePostContainer = document.getElementById('single-post-container');
     if (singlePostContainer) {
         const urlParams = new URLSearchParams(window.location.search);
-        const postId = urlParams.get('id') || (window.location.hash ? window.location.hash.substring(1) : null);
+        const postId = urlParams.get('id') || null;
+        const postSlug = urlParams.get('slug') || (window.location.hash ? window.location.hash.substring(1) : null);
 
-        if (!postId) {
+        if (!postId && !postSlug) {
             singlePostContainer.innerHTML = '<div class="text-center py-20" style="color: var(--text-muted);">No post specified.</div>';
         } else {
             Promise.all([
@@ -235,7 +236,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 loadData(`data/news.json${cacheBuster}`).catch(() => [])
             ]).then(([blogs, news]) => {
                 const allItems = [...blogs, ...news];
-                const post = allItems.find(item => item.id === postId);
+                var post;
+                if (postId) {
+                    post = allItems.find(item => item.id === postId);
+                } else {
+                    post = allItems.find(item => item.slug === postSlug);
+                }
 
                 if (!post) {
                     singlePostContainer.innerHTML = '<div class="text-center py-20" style="color: var(--text-muted);">Post not found.</div>';
@@ -246,16 +252,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const formattedContent = (post.content || post.summary || '').replace(/\*(.*?)\*/g, '<strong>$1</strong>').replace(/_(.*?)_/g, '<em>$1</em>');
 
+                // Previous coverage banner
+                var prevHtml = '';
+                if (post.previous_coverage) {
+                    prevHtml = `
+                        <div class="prev-coverage-banner">
+                            📌 Earlier coverage:
+                            <a href="post.html?id=${post.previous_coverage.id}">
+                                ${post.previous_coverage.title}
+                            </a> →
+                        </div>
+                    `;
+                }
+
+                // Related articles
+                var relatedHtml = '';
+                if (post.related_ids && post.related_ids.length > 0) {
+                    var relatedItems = allItems.filter(function(r) {
+                        return post.related_ids.indexOf(r.id) !== -1;
+                    });
+                    if (relatedItems.length > 0) {
+                        relatedHtml = '<div style="max-width:680px;margin:3rem auto 0;border-top:1px solid var(--border);padding-top:2rem;">';
+                        relatedHtml += '<div style="font-size:11px;text-transform:uppercase;letter-spacing:0.1em;color:var(--text-muted);margin-bottom:1rem;">Related Coverage</div>';
+                        relatedHtml += '<div style="display:grid;gap:1rem;">';
+                        relatedItems.forEach(function(r) {
+                            relatedHtml += `
+                                <a href="post.html?id=${r.id}" style="display:block;background:var(--bg-primary);border:1px solid var(--border);border-radius:8px;padding:16px;text-decoration:none;transition:border-color 0.15s;">
+                                    <span style="display:inline-block;font-size:10px;padding:2px 8px;border-radius:20px;background:var(--accent);color:#fff;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">${r.category}</span>
+                                    <div style="font-family:var(--font-display);font-size:16px;color:var(--text-primary);margin-bottom:4px;">${r.title}</div>
+                                    <div style="font-size:12px;color:var(--text-muted);">${r.published_date}</div>
+                                </a>
+                            `;
+                        });
+                        relatedHtml += '</div></div>';
+                    }
+                }
+
                 singlePostContainer.innerHTML = `
                     <div class="post-hero">
                         <div class="post-hero-inner">
-                            <span class="post-hero-tag">${post.label}</span>
+                            <span class="post-hero-tag">${post.category}</span>
                             <h1>${post.title}</h1>
-                            <div class="post-hero-byline"><strong>${post.author || 'Prasad Chandra Kulal'}</strong> · ${post.date} · 6 min read</div>
+                            <div class="post-hero-byline"><strong>${post.author || 'Prasad Chandra Kulal'}</strong> · ${post.published_date} · ${post.read_time || '6 min read'}</div>
                         </div>
                     </div>
                     <div class="post-body-wrapper">
-                        <div class="post-content">${formattedContent}</div>
+                        <div class="post-content">${prevHtml}${formattedContent}</div>
+                        ${relatedHtml}
                         <div class="post-sources" style="max-width: 680px; margin: 3rem auto 0; border-top: 1px solid var(--border); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
                             <span style="font-size: 0.85rem; color: var(--text-muted);">Share this article</span>
                             <div style="display: flex; gap: 0.5rem;">
@@ -284,32 +327,44 @@ document.addEventListener('DOMContentLoaded', () => {
         ]).then(([blogs, news]) => {
             const allItems = [
                 ...blogs.map(b => ({ ...b, type: 'Blog' })),
-                ...news.map(n => ({ ...n, type: 'News' }))
-            ].sort((a, b) => new Date(b.date) - new Date(a.date));
+                ...news.map(n => ({ ...n, type: 'News', _sortDate: n.published_date }))
+            ].sort((a, b) => {
+                if (a.published_date < b.published_date) return 1;
+                if (a.published_date > b.published_date) return -1;
+                return 0;
+            });
 
             if (allItems.length === 0) {
                 archivesContainer.innerHTML = '<p class="text-center" style="color: var(--text-muted); padding: 3rem 0;">No content archived yet.</p>';
                 return;
             }
 
-            const grouped = {};
-            allItems.forEach(item => {
-                const cat = item.type;
-                if (!grouped[cat]) grouped[cat] = [];
-                grouped[cat].push(item);
+            // Group by month
+            var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+            var grouped = {};
+            allItems.forEach(function(item) {
+                var parts = item.published_date.split('-');
+                var monthKey = parts[0] + '-' + parts[1];
+                var label = monthNames[parseInt(parts[1]) - 1] + ' ' + parts[0];
+                if (!grouped[monthKey]) grouped[monthKey] = { label: label, items: [] };
+                grouped[monthKey].items.push(item);
             });
 
-            let html = '';
-            Object.keys(grouped).forEach(category => {
-                html += `<div class="archive-section-title">${category}</div>`;
-                grouped[category].forEach((item, i) => {
+            // Sort months descending
+            var monthKeys = Object.keys(grouped).sort().reverse();
+
+            var html = '';
+            monthKeys.forEach(function(key) {
+                html += '<div class="archive-section-title">' + grouped[key].label + '</div>';
+                grouped[key].items.forEach(function(item) {
                     html += `
                         <a href="post.html?id=${item.id}" class="archive-row" style="display: flex; justify-content: space-between; align-items: baseline;">
                             <div class="archive-row-left">
-                                <span class="archive-row-tag">${item.label}</span>
+                                <span class="archive-row-tag">${item.id}</span>
+                                <span class="archive-row-tag">${item.type}</span>
                                 <span class="archive-row-title">${item.title}</span>
                             </div>
-                            <span class="archive-row-date">${item.date}</span>
+                            <span class="archive-row-date">${item.published_date}</span>
                         </a>
                     `;
                 });
@@ -331,11 +386,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="post.html?id=${blog.id}" class="card-link">
                         <article class="card">
                             <div class="card-body">
-                                <span class="card-label">${blog.label}</span>
+                                <span class="card-label">${blog.category}</span>
                                 <h3 class="card-title">${blog.title}</h3>
-                                <p class="card-excerpt">${blog.excerpt}</p>
+                                <p class="card-excerpt">${blog.summary}</p>
                                 <div class="card-meta">
-                                    <span>${blog.date}</span>
+                                    <span>${blog.published_date}</span>
                                     <span>·</span>
                                     <span>${blog.author}</span>
                                 </div>
@@ -356,8 +411,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 latestNews.innerHTML = latest.map(item => `
                     <a href="post.html?id=${item.id}" class="post-card" style="display: block;">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;">
-                            <span class="news-source">${item.source}</span>
-                            <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.date}</span>
+                            <span class="news-source">${item.source || item.author}</span>
+                            <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.published_date}</span>
                         </div>
                         <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--text-primary); margin: 0.5rem 0;">${item.title}</h3>
                         <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${item.summary}</p>

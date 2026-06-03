@@ -887,6 +887,23 @@ html.dark .theme-toggle .icon-moon { display: none; }
 }
 
 /* Post page */
+.prev-coverage-banner {
+  background: #fdf8e8;
+  border-left: 3px solid #b8860b;
+  padding: 10px 16px;
+  font-size: 13px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+.dark .prev-coverage-banner {
+  background: #2a2210;
+  color: #d4a84b;
+}
+.prev-coverage-banner a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .post-hero {
   background: var(--bg-primary);
   text-align: center;
