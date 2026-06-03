@@ -1,3 +1,12 @@
+// Dark mode — run immediately to prevent FOUC
+(function() {
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (stored === 'dark' || (!stored && prefersDark)) {
+        document.documentElement.classList.add('dark');
+    }
+})();
+
 function loadData(url) {
     return fetch(url, { mode: 'same-origin' }).then(function(r) { if (!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).catch(function() {
         return new Promise(function(resolve, reject) {
@@ -357,5 +366,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 `).join('');
             })
             .catch(() => {});
+    }
+
+    // Theme toggle
+    var toggle = document.querySelector('.theme-toggle');
+    if (toggle) {
+        toggle.addEventListener('click', function() {
+            var html = document.documentElement;
+            html.classList.add('theme-transition');
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            setTimeout(function() { html.classList.remove('theme-transition'); }, 300);
+        });
     }
 });
