@@ -1,8 +1,7 @@
-// Dark mode — run immediately to prevent FOUC
+// Dark mode — default to light, toggle via localStorage only
 (function() {
-    var stored = localStorage.getItem('theme');
-    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    if (stored === 'dark' || (!stored && prefersDark)) {
+    var saved = localStorage.getItem('theme') || 'light';
+    if (saved === 'dark') {
         document.documentElement.classList.add('dark');
     }
 })();
@@ -29,7 +28,7 @@ function loadData(url) {
 function handleImgError(img) {
     img.onerror = null;
     var d = document.createElement('div');
-    d.style.cssText = 'background:#EDE8E0;border-radius:4px;display:flex;align-items:center;justify-content:center;color:#AAA;font-size:13px;font-family:Outfit,sans-serif;';
+    d.style.cssText = 'background:var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:13px;font-family:Outfit,sans-serif;';
     d.style.width = img.style.width || '100%';
     d.style.height = img.style.height || '200px';
     d.textContent = 'Image unavailable';
@@ -360,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="news-source">${item.source}</span>
                             <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.date}</span>
                         </div>
-                        <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--text-dark); margin: 0.5rem 0;">${item.title}</h3>
+                        <h3 style="font-family: var(--font-display); font-size: 1.1rem; color: var(--text-primary); margin: 0.5rem 0;">${item.title}</h3>
                         <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${item.summary}</p>
                     </a>
                 `).join('');
@@ -373,15 +372,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (toggle) {
         toggle.addEventListener('click', function() {
             var html = document.documentElement;
-            html.classList.add('theme-transition');
-            if (html.classList.contains('dark')) {
-                html.classList.remove('dark');
-                localStorage.setItem('theme', 'light');
-            } else {
-                html.classList.add('dark');
-                localStorage.setItem('theme', 'dark');
-            }
-            setTimeout(function() { html.classList.remove('theme-transition'); }, 300);
+            var isDark = html.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
         });
     }
 });
