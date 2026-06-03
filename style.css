@@ -436,13 +436,6 @@ img { max-width: 100%; height: auto; }
   transform: translateY(-2px);
 }
 
-.card-img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: cover;
-  display: block;
-}
-
 .card-body {
   padding: 1.5rem;
 }
@@ -879,28 +872,6 @@ img { max-width: 100%; height: auto; }
 .post-body-wrapper {
   background: var(--surface);
   padding: 0 24px 64px;
-}
-
-.post-featured-image {
-  max-width: 680px;
-  margin: 32px auto;
-  display: block;
-  border-radius: 6px;
-  width: 100%;
-}
-
-.post-featured-placeholder {
-  max-width: 680px;
-  margin: 32px auto;
-  background: #EDE8E0;
-  height: 260px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-body);
-  font-size: 13px;
-  color: #AAAAAA;
 }
 
 .post-content {

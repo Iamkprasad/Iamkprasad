@@ -238,10 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const formattedContent = (post.content || post.summary || '').replace(/\*(.*?)\*/g, '<strong>$1</strong>').replace(/_(.*?)_/g, '<em>$1</em>');
 
-                const imageHtml = post.image
-                    ? `<img src="${post.image}" alt="${post.title}" class="post-featured-image" loading="lazy" onerror="this.onerror=null;this.parentNode.innerHTML='<div class=\\'post-featured-placeholder\\'>Featured image</div>'">`
-                    : '<div class="post-featured-placeholder">Featured image</div>';
-
                 singlePostContainer.innerHTML = `
                     <div class="post-hero">
                         <div class="post-hero-inner">
@@ -251,7 +247,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                     <div class="post-body-wrapper">
-                        ${imageHtml}
                         <div class="post-content">${formattedContent}</div>
                         <div class="post-sources" style="max-width: 680px; margin: 3rem auto 0; border-top: 1px solid var(--border); padding-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
                             <span style="font-size: 0.85rem; color: var(--text-muted);">Share this article</span>
@@ -327,7 +322,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 featuredContainer.innerHTML = featured.map((blog, index) => `
                     <a href="post.html?id=${blog.id}" class="card-link">
                         <article class="card">
-                            <img src="${blog.image || 'assets/images/blog/default.jpg'}" alt="${blog.title}" class="card-img" loading="lazy" onerror="handleImgError(this)">
                             <div class="card-body">
                                 <span class="card-label">${blog.label}</span>
                                 <h3 class="card-title">${blog.title}</h3>
