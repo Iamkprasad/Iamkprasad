@@ -1367,7 +1367,21 @@ textarea.contact-input {
   background: var(--accent);
 }
 
-/* Animations removed — editorial site uses minimal motion */
+/* Content fade-in — subtle, no transforms, no delays */
+@keyframes contentIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.blog-card,
+.post-card,
+.archive-row,
+#featured-posts .card,
+#latest-news .post-card,
+.post-hero,
+.post-body-wrapper {
+  animation: contentIn 0.2s ease-out;
+}
 
 /* Responsive */
 @media (max-width: 640px) {
