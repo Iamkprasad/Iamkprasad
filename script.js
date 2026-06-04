@@ -409,7 +409,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(news => {
                 const latest = news.slice(0, 3);
                 latestNews.innerHTML = latest.map(item => `
-                    <a href="post.html?id=${item.id}" class="post-card" style="display: block;">
+                    <a href="post.html?id=${item.id}" class="post-card">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;">
                             <span class="news-source">${item.source || item.author}</span>
                             <span style="font-size: 0.75rem; color: var(--text-muted); white-space: nowrap;">${item.published_date}</span>
