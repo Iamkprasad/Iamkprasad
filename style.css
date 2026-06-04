@@ -163,20 +163,24 @@ img { max-width: 100%; height: auto; }
 .logo {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
+  overflow: visible;
   line-height: 0;
 }
 
 .logo img {
-  height: 44px;
+  height: 36px;
   width: auto;
+  max-width: none;
+  min-width: 120px;
   display: block;
-  object-fit: contain;
+  flex-shrink: 0;
   background: none;
 }
 
 html.dark .logo img,
 html.dark .footer-brand {
-  filter: invert(1);
+  filter: brightness(0) saturate(100%) invert(65%) sepia(30%) saturate(400%) hue-rotate(50deg) brightness(90%);
 }
 
 .desktop-nav { display: none; align-items: center; gap: 28px; }
@@ -829,10 +833,12 @@ html.dark .theme-toggle .icon-moon { display: none; }
 }
 
 .footer-brand {
-  height: 40px;
+  height: 32px;
   width: auto;
+  max-width: none;
+  min-width: 100px;
   display: block;
-  object-fit: contain;
+  flex-shrink: 0;
   margin-bottom: 8px;
 }
 
