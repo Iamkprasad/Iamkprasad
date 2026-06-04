@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     return;
                 }
 
-                document.title = `${post.title} | Prasad Kulal`;
+                document.title = `${post.title} | BimaNiti`;
 
                 const formattedContent = (post.content || post.summary || '').replace(/\*(.*?)\*/g, '<strong>$1</strong>').replace(/_(.*?)_/g, '<em>$1</em>');
 
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="post-hero-inner">
                             <span class="post-hero-tag">${post.category}</span>
                             <h1>${post.title}</h1>
-                            <div class="post-hero-byline"><strong>${post.author || 'Prasad Chandra Kulal'}</strong> · ${post.published_date} · ${post.read_time || '6 min read'}</div>
+                            <div class="post-hero-byline"><strong>${post.author || 'BimaNiti'}</strong> · ${post.published_date} · ${post.read_time || '6 min read'}</div>
                         </div>
                     </div>
                     <div class="post-body-wrapper">
