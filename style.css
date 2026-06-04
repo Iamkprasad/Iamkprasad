@@ -167,7 +167,11 @@ img { max-width: 100%; height: auto; }
 }
 
 .logo img {
+  height: 38px;
+  width: auto;
+  max-width: 160px;
   display: block;
+  object-fit: contain;
   background: none;
 }
 
@@ -821,12 +825,12 @@ html.dark .theme-toggle .icon-moon { display: none; }
 }
 
 .footer-brand {
-  line-height: 0;
-  margin-bottom: 0.5rem;
-}
-
-.footer-brand img {
+  height: 32px;
+  width: auto;
+  max-width: 140px;
   display: block;
+  object-fit: contain;
+  margin-bottom: 8px;
 }
 
 .footer-desc {
